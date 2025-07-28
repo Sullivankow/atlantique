@@ -164,6 +164,93 @@
 }
 
 
+
+
+/*HERO SECTION*/
+
+.hero-conciergerie {
+    min-height: 60vh;
+    max-height: 90vh;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-bg-img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.55) saturate(1.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #1976d2cc 0%, #4fc3f7cc 100%);
+    opacity: 0.35;
+    z-index: 2;
+}
+
+.hero-content {
+    z-index: 3;
+}
+
+@media (max-width: 768px) {
+    .hero-conciergerie {
+        min-height: 38vh;
+    }
+
+    .hero-bg-img {
+        height: 38vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 
 .footer-conciergerie {
