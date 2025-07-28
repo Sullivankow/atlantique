@@ -1,0 +1,36 @@
+🌊 Les Clés de l’Atlantique – Conciergerie Pro Clean 🧼
+Bienvenue sur le dépôt GitHub du site Les Clés de l’Atlantique, une conciergerie moderne, professionnelle et locale, spécialisée dans la gestion de biens et le ménage haut de gamme sur la côte atlantique.
+Ce site vitrine a été développé en PHP Vanilla, sans framework, pour rester léger, rapide et facile à maintenir.
+
+🎯 Objectifs du site
+🔑 Présenter les services de conciergerie (gestion de clés, ménage, check-in/out, etc.)
+🧽 Valoriser la propreté et la qualité de service ("Pro Clean")
+📩 Permettre le contact via un formulaire
+📍 Afficher la zone d’intervention (avec carte)
+📸 Donner confiance avec des photos, témoignages clients et des valeurs claires
+
+🚀 Fonctionnalités principales
+🖥️ Site responsive (mobile-first)
+
+📃 Pages dynamiques en PHP : Accueil, Services, À propos, Avis, Contact
+
+📷 Galerie photos des prestations
+
+📬 Formulaire de contact en PHP avec envoi d’e-mail
+
+🗺️ Carte interactive (ex : Google Maps intégrée)
+
+🧼 Mise en avant de l’engagement "Pro Clean"
+
+🔐 Sécurité de base : validation serveur des formulaires, protection contre les injections
+
+🛠️ Stack technique
+⚙️ PHP Vanilla (sans framework)
+
+🌐 HTML5 / CSS3 / JavaScript
+
+✉️ PHP Mail ou PHPMailer pour le formulaire de contact
+
+📦 Organisation MVC simplifiée possible
+
+🖼️ Stockage des images en local (ou sur CDN)
