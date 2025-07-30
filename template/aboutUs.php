@@ -20,7 +20,7 @@
                 <div class="d-flex flex-wrap gap-3">
                     <span class="badge rounded-pill bg-primary bg-gradient px-3 py-2 fs-6"><i class="bi bi-stars me-2"></i>Service premium</span>
                     <span class="badge rounded-pill bg-info bg-gradient px-3 py-2 fs-6"><i class="bi bi-water me-2"></i>Esprit bord de mer</span>
-                    <span class="badge rounded-pill bg-light text-primary px-3 py-2 fs-6"><i class="bi bi-shield-check me-2"></i>Confiance & sécurité</span>
+                    <span class="badge rounded-pill bg-light text-white px-3 py-2 fs-6"><i class="bi bi-shield-check me-2"></i>Confiance & sécurité</span>
                 </div>
             </div>
         </div>
