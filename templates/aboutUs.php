@@ -1,3 +1,4 @@
+<!--Section about us-->
 <section class="aboutus-artistic py-5 position-relative animate-slide-in">
     <div class="container">
         <div class="row align-items-center gy-5 flex-lg-row flex-column-reverse">
