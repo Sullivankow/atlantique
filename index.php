@@ -1,12 +1,12 @@
 <?php
-require_once "templates/header.php";
-require_once "templates/hero.php";
-require_once "templates/aboutUs.php";
+require_once "template/header.php";
+require_once "template/hero.php";
+require_once "template/aboutUs.php";
 
 ?>
 
 
 
 <?php
-require_once "templates/footer.php";
+require_once "template/footer.php";
 ?>
