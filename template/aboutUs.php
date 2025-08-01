@@ -6,7 +6,7 @@
                 <div class="aboutus-art-imgs position-relative" style="min-height:280px;">
                     <img src="assets/images/villa1.jpg" alt="Conciergerie Royan" class="art-img1 shadow-lg rounded-4 animated-img" style="width:240px; height:240px; object-fit:cover; z-index:2; transform:rotate(-7deg); border:8px solid #fff;">
                     <img src="assets/images/villa2.jpg" alt="Service Pro Clean" class="art-img2 shadow rounded-4 animated-img" style="width:170px; height:170px; object-fit:cover; z-index:1; transform:rotate(8deg); border:6px solid #e3f2fd;">
-                    <svg class="aboutus-art-anchor" width="110" height="110" viewBox="0 0 80 80" fill="none" style="position:absolute; right:-40px; top:10px; z-index:0; opacity:0.22;">
+                    <svg class="aboutus-art-anchor" width="110" height="110" viewBox="0 0 80 80" fill="none" style="position:absolute; right:-120px; top:10px; z-index:0; opacity:0.22;">
                         <path d="M40 10v40m0 0c-8 0-15-7-15-15m15 15c8 0 15-7 15-15" stroke="#1976d2" stroke-width="5" stroke-linecap="round" />
                         <circle cx="40" cy="10" r="8" fill="#1976d2" />
                         <circle cx="40" cy="10" r="14" stroke="#4fc3f7" stroke-width="2" fill="none" />
