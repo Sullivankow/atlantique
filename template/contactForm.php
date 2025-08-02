@@ -36,7 +36,8 @@
             <!-- Coordonnées à droite -->
             <div class="col-lg-3 d-flex flex-column align-items-center align-items-lg-end justify-content-center animate-fade-in">
                 <div class="contact-info-box p-3 rounded-4 bg-white" style="min-width:180px;">
-                    <h5 class="fw-semibold mb-3" style="color:#007090;">Coordonnées</h5>
+                    <div class="mb-2 text-muted small" style="line-height:1.4;">Nous sommes joignables 7j/7 et répondons rapidement à toutes vos demandes, par mail ou téléphone.</div>
+                    <h5 class="fw-semibold mb-3 mt-2" style="color:#007090;">Coordonnées</h5>
                     <div class="mb-2"><i class="bi bi-geo-alt-fill me-2" style="color:#4ce0d2;"></i>Royan, Charente-Maritime</div>
                     <div class="mb-2"><i class="bi bi-envelope-fill me-2" style="color:#4ce0d2;"></i>contact@cles-atlantique.fr</div>
                     <div class="mb-2"><i class="bi bi-telephone-fill me-2" style="color:#4ce0d2;"></i>06 12 34 56 78</div>
