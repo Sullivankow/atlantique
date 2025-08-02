@@ -16,11 +16,16 @@
                     <span style="color:#4ce0d2;font-weight:600;">Votre bien-être est notre plus belle réussite.</span>
                 </p>
                 <div class="reviews-art-imgs position-relative" style="min-height:180px;">
-                    <img src="assets/images/hero.jpg" alt="Sourire client 1" class="review-img1 shadow-lg rounded-4 animated-img" style="width:180px; height:180px; object-fit:cover; z-index:2; transform:rotate(-7deg); border:8px solid #fff; position:absolute; left:0; top:0;">
-                    <img src="assets/images/hero.jpg" alt="Sourire client 2" class="review-img2 shadow rounded-4 animated-img" style="width:120px; height:120px; object-fit:cover; z-index:1; transform:rotate(8deg); border:6px solid #e3f2fd; position:absolute; left:110px; top:60px;">
-                    <svg class="reviews-art-anchor" width="70" height="70" viewBox="0 0 80 80" fill="none" style="position:absolute; right:-60px; top:10px; z-index:0; opacity:0.18;">
-                        <circle cx="40" cy="40" r="35" fill="#4ce0d2" />
-                    </svg>
+                    <div style="position:relative; left:250px;">
+                        <img src="assets/images/hero.jpg" alt="Sourire client 1" class="review-img1 shadow-lg rounded-4 animated-img" style="width:180px; height:180px; object-fit:cover; z-index:2; transform:rotate(-7deg); border:8px solid #fff; position:absolute; left:0; top:0;">
+                        <img src="assets/images/hero.jpg" alt="Sourire client 2" class="review-img2 shadow rounded-4 animated-img" style="width:120px; height:120px; object-fit:cover; z-index:1; transform:rotate(8deg); border:6px solid #e3f2fd; position:absolute; left:110px; top:60px;">
+                        <svg class="reviews-art-anchor" width="70" height="70" viewBox="0 0 80 80" fill="none" style="position:absolute; right:-60px; top:10px; z-index:0; opacity:0.18;">
+                            <circle cx="40" cy="40" r="35" fill="#4ce0d2" />
+                        </svg>
+                    </div>
+                    <div class="d-grid" style="position:relative; z-index:3; width:fit-content;">
+                        <button type="button" class="btn btn-primary btn-lg rounded-pill animate-btn">Voir nos biens</button>
+                    </div>
                 </div>
 
             </div>
@@ -73,8 +78,10 @@
                                 <div class="text-end text-muted mt-2" style="font-size:0.97rem;">
                                     <?= htmlspecialchars($review['date']) ?>
                                 </div>
+
                             </div>
                         <?php endforeach; ?>
+
                     </div>
                     <!-- Boutons de navigation sous le carousel -->
                     <div class="d-flex justify-content-center gap-3 mt-4">
