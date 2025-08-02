@@ -4,7 +4,7 @@
         <div class="row justify-content-center align-items-stretch g-5 flex-lg-row flex-column">
             <!-- Logo + nom à gauche -->
             <div class="col-lg-3 d-flex flex-column align-items-center align-items-lg-start justify-content-center mb-4 mb-lg-0 animate-fade-in">
-                <div class="contact-logo-box p-3 rounded-4 bg-white d-flex align-items-center justify-content-center mb-3" style="width:110px; height:110px;">
+                <div class="contact-logo-box p-3 rounded-4 bg-white d-flex align-items-center justify-content-center mb-3" style="width:180px; height:180px;">
                     <img src="assets/images/LOGO.svg" alt="Logo Les Clés de l’Atlantique" style="max-width:100%; max-height:100%;">
                 </div>
                 <div class="contact-title-box text-center text-lg-start">
