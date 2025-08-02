@@ -439,3 +439,117 @@
         text-align: center !important;
     }
 }
+
+
+
+/*SECTION AVIS*/
+.review-card-art {
+    box-shadow: 0 8px 32px #4ce0d244;
+    border-radius: 2.5rem;
+    border-left: 8px solid #4ce0d2;
+    background: linear-gradient(120deg, #fff 80%, #e3f2fd 100%);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.review-card-art:hover {
+    box-shadow: 0 12px 36px #00709033;
+    transform: translateY(-6px) scale(1.03) rotate(-1deg);
+}
+
+.reviews-carousel {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.reviews-track {
+    transition: transform 0.6s cubic-bezier(.77, .2, .18, 1);
+}
+
+@media (max-width: 600px) {
+    .review-card-art {
+        min-width: 90vw;
+        width: 95vw;
+    }
+}
+
+
+/*ANIMATION DES IMAGES*/
+.reviews-art-imgs {
+    min-width: 240px;
+    min-height: 180px;
+    max-width: 100%;
+}
+
+.review-img1.animated-img {
+    animation: floatImg 2.8s ease-in-out infinite alternate;
+}
+
+.review-img2.animated-img {
+    animation: floatImg2 2.8s ease-in-out infinite alternate;
+    animation-delay: 0.7s;
+}
+
+.reviews-art-imgs:hover .animated-img {
+    transform: scale(1.08) rotate(-1deg) translateY(-8px);
+    box-shadow: 0 18px 48px #1976d244;
+}
+
+.reviews-art-anchor {
+    pointer-events: none;
+}
+
+@keyframes floatImg {
+    0% {
+        transform: scale(1) rotate(-7deg) translateY(0);
+    }
+
+    50% {
+        transform: scale(1.04) rotate(-2deg) translateY(-12px);
+    }
+
+    100% {
+        transform: scale(1) rotate(-7deg) translateY(0);
+    }
+}
+
+@keyframes floatImg2 {
+    0% {
+        transform: scale(1) rotate(8deg) translateY(0);
+    }
+
+    50% {
+        transform: scale(1.04) rotate(12deg) translateY(-10px);
+    }
+
+    100% {
+        transform: scale(1) rotate(8deg) translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .reviews-art-imgs {
+        min-width: 120px;
+        min-height: 70px;
+    }
+
+    .review-img1 {
+        width: 90px !important;
+        height: 90px !important;
+        left: 0;
+        top: 5px;
+    }
+
+    .review-img2 {
+        width: 50px !important;
+        height: 50px !important;
+        left: 50px;
+        top: 30px;
+    }
+
+    .reviews-art-anchor {
+        width: 28px;
+        height: 28px;
+        right: -5px;
+        top: 2px;
+    }
+}

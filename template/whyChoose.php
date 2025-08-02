@@ -1,5 +1,5 @@
 <!-- Section Pourquoi nous choisir -->
-<section class="whychoose-section py-5 position-relative" style="background: linear-gradient(120deg, #e3f2fd 0%, #4ce0d2 100%);">
+<section class="whychoose-section animate-slide-in py-5 position-relative" style="background: linear-gradient(120deg, #e3f2fd 0%, #4ce0d2 100%);">
     <div class="container">
         <h2 class="text-center fw-bold mb-5" style="color:#007090; letter-spacing:0.03em;">Pourquoi nous choisir&nbsp;?</h2>
         <div class="row justify-content-center gy-4">
