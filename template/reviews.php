@@ -24,12 +24,12 @@
                         </svg>
                     </div>
                     <div class="d-grid" style="position:relative; z-index:3; width:fit-content;">
-                        <button type="button" class="btn btn-primary btn-lg rounded-pill animate-btn">Voir nos biens</button>
+                        <button type="button" class="btn btn-primary btn-lg rounded-pill animate-btn mt-4 ">Voir nos biens</button>
                     </div>
                 </div>
 
             </div>
-            <div class="col-lg-6">
+            <div class=" col-lg-6">
                 <div class="reviews-carousel position-relative overflow-visible">
                     <div class="reviews-track d-flex flex-nowrap align-items-stretch" id="reviewsTrack">
                         <?php
