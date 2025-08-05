@@ -1,5 +1,5 @@
 <!-- Section Formulaire de contact minimaliste -->
-<section class="contact-section py-5 animate-slide-in" style="background: #fff;">
+<section id="contact" class="contact-section py-5 animate-slide-in" style="background: #fff;">
     <div class="container">
         <div class="row justify-content-center align-items-stretch g-5 flex-lg-row flex-column">
             <!-- Logo + nom à gauche -->
