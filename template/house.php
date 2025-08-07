@@ -25,6 +25,7 @@ $biens = [
     [
         'images' => [
             'assets/images/hero.jpg',
+            'assets/images/hero.jpg',
         ],
         'titre' => 'Appartement Vue Mer',
         'description' => 'Appartement lumineux avec vue panoramique sur l’océan, balcon, 2 chambres, accès direct à la plage.',
@@ -134,8 +135,6 @@ foreach ($biens as $bien):
 <?php $i++;
 endforeach; ?>
 </div>
-<div class="text-center mt-5">
-    <a href="/index.php#contact" class="btn btn-outline-primary btn-lg rounded-pill px-5 animate-btn text-white">Vous souhaitez confier votre bien ?</a>
-</div>
+
 </div>
 </section>
