@@ -24,7 +24,7 @@
                         </svg>
                     </div>
                     <div class="d-grid" style="position:relative; z-index:3; width:fit-content;">
-                        <button type="button" class="btn btn-primary btn-lg rounded-pill animate-btn mt-4 ">Voir nos biens</button>
+                        <a href="pages/biens.php#bien" class="btn btn-primary mt-auto animate-btn rounded-pill">Voir nos biens</a>
                     </div>
                 </div>
 
