@@ -50,7 +50,7 @@
                             <a class="nav-link" href="#prestation">Prestations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#avis">Avis</a>
+                            <a class="nav-link" href="/index.php#reviews">Avis</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>

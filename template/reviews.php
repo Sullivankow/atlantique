@@ -1,5 +1,5 @@
 <!-- Section Avis Artistique -->
-<section class="reviews-section py-5 position-relative animate-slide-in" style="background: linear-gradient(120deg, #e3f2fd 0%, #f8fafc 100%); overflow:hidden;">
+<section id="reviews" class="reviews-section py-5 position-relative animate-slide-in" style="background: linear-gradient(120deg, #e3f2fd 0%, #f8fafc 100%); overflow:hidden;">
     <!-- Forme décorative SVG -->
     <svg width="180" height="180" viewBox="0 0 180 180" fill="none" style="position:absolute;top:-60px;left:-60px;z-index:0;opacity:0.18;">
         <circle cx="90" cy="90" r="90" fill="#4ce0d2" />
