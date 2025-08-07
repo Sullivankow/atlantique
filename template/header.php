@@ -44,7 +44,7 @@
                             <a class="nav-link active" aria-current="page" href="/index.php">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/biens.php#bien">Les biens</a>
+                            <a class="nav-link" href="/pages/biens.php#bien">Les biens</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#prestation">Prestations</a>
