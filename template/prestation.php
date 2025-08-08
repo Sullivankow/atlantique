@@ -7,15 +7,15 @@
                     <div class="mb-3">
                         <span class="small text-muted">TVA en sus – soit <b>18% TTC</b></span>
                     </div>
-                    <h1 class="fw-bold mb-3" style="color:#1976d2; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">L’excellence de la conciergerie sur la Côte Atlantique</h1>
+                    <h1 class="fw-bold mb-3" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">L’excellence de la conciergerie sur la Côte Atlantique</h1>
                     <p class="lead mb-4" style="color:#546A7B; max-width:700px; margin:auto;">Valorisez votre bien et offrez à vos voyageurs une expérience inoubliable grâce à un accompagnement local, humain et haut de gamme. <br>Profitez de la sérénité, nous nous occupons de tout !</p>
-                    <ul class="list-unstyled d-inline-block text-start mb-0" style="color:#1976d2; font-size:1.13rem; background:rgba(255,255,255,0.7); border-radius:1.5rem; box-shadow:0 4px 24px #4ce0d222; padding:1.5rem 2rem;">
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Gestion des annonces, réservations et communication voyageurs</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Accueil chaleureux & remise des clés en main propre</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Ménage professionnel & linge hôtelier fourni</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Assistance & dépannage 7j/7 pour vous et vos locataires</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Services premium : paniers d’accueil, conseils, expériences locales</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.3rem;"></i>Suivi, reporting & optimisation de vos revenus</li>
+                    <ul class="list-unstyled d-inline-block text-start mb-0" style="color:#62929E; font-size:1.13rem; background:rgba(255,255,255,0.7); border-radius:1.5rem; box-shadow:0 4px 24px #4ce0d222; padding:1.5rem 2rem;">
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Gestion des annonces, réservations et communication voyageurs</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Accueil chaleureux & remise des clés en main propre</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Ménage professionnel & linge hôtelier fourni</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Assistance & dépannage 7j/7 pour vous et vos locataires</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Services premium : paniers d’accueil, conseils, expériences locales</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Suivi, reporting & optimisation de vos revenus</li>
                     </ul>
                 </div>
             </div>
@@ -36,14 +36,14 @@
 
     <section id="prestations" class="prestations-section py-5" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%);">
         <div class="container">
-            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#1976d2; font-family:'Montserrat',sans-serif;">Nos Prestations</h2>
+            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Montserrat',sans-serif;">Nos Prestations</h2>
             <div class="row g-4 justify-content-center">
                 <!-- Prestation 1 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.1s;">
                         <div class="card-body text-center">
                             <i class="bi bi-house-door-fill" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#1976d2;">Gestion de location</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Gestion de location</h5>
                             <p class="text-muted">Gestion complète de vos biens : annonces, accueil, ménage, linge, assistance 24/7.</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.2s;">
                         <div class="card-body text-center">
                             <i class="bi bi-stars" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#1976d2;">Conciergerie premium</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Conciergerie premium</h5>
                             <p class="text-muted">Services sur-mesure pour vos locataires : paniers d’accueil, réservations, expériences locales.</p>
                         </div>
                     </div>
@@ -63,12 +63,90 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.3s;">
                         <div class="card-body text-center">
                             <i class="bi bi-bag-check-fill" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#1976d2;">Ménage & Blanchisserie</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Ménage & Blanchisserie</h5>
                             <p class="text-muted">Propreté irréprochable et linge hôtelier pour un séjour parfait, sans contrainte.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Ajoute d'autres prestations ici si besoin -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section id="faq" class="faq-section py-5" style="background: #fff;">
+        <div class="container">
+            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Montserrat',sans-serif;">FAQ - Questions fréquentes</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- Question 1 -->
+                        <div class="accordion-item mb-3">
+                            <h3 class="accordion-header" id="faq1-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1" style="color:#62929E; font-weight:600;">
+                                    Quels sont les avantages de passer par votre conciergerie ?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Nous gérons tout pour vous : annonces, accueil, ménage, assistance, optimisation de vos revenus. Vous gagnez du temps, de la sérénité et vos locataires profitent d’un service haut de gamme.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 2 -->
+                        <div class="accordion-item mb-3">
+                            <h3 class="accordion-header" id="faq2-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2" style="color:#62929E; font-weight:600;">
+                                    Comment sont sélectionnés les prestataires de ménage et de blanchisserie ?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Nous travaillons uniquement avec des professionnels locaux, fiables et expérimentés, pour garantir une qualité irréprochable à chaque séjour.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 3 -->
+                        <div class="accordion-item mb-3">
+                            <h3 class="accordion-header" id="faq3-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3" style="color:#62929E; font-weight:600;">
+                                    Puis-je suivre la gestion de mon bien à distance ?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Oui, vous recevez des comptes-rendus réguliers, un accès à vos réservations et un interlocuteur dédié pour toute question.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 4 -->
+                        <div class="accordion-item mb-3">
+                            <h3 class="accordion-header" id="faq4-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4" style="color:#62929E; font-weight:600;">
+                                    Que se passe-t-il en cas d’imprévu ou de problème avec un locataire ?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Notre équipe reste disponible 7j/7 pour gérer tout imprévu : dépannage, litige, assistance d’urgence. Vous n’avez rien à gérer, nous nous occupons de tout.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 5 -->
+                        <div class="accordion-item mb-3">
+                            <h3 class="accordion-header" id="faq5-heading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5" style="color:#62929E; font-weight:600;">
+                                    Les prestations sont-elles personnalisables selon mes besoins ?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolument ! Nous adaptons nos services à vos attentes et à celles de vos locataires pour une gestion sur-mesure.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
