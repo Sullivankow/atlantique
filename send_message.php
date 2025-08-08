@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Contact - Les clés de l'Atlantique</title>
-    <meta http-equiv="refresh" content="4;url=index.php#contact">
+    <!-- <meta http-equiv="refresh" content="4;url=index.php#contact"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
@@ -75,6 +75,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
     </div>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <?php if ($success): ?>
+        <script>
+            console.log('Formulaire envoyé avec succès');
+        </script>
+    <?php elseif (!empty($errors)): ?>
+        <script>
+            console.log('Erreur lors de l\'envoi du formulaire : <?= json_encode($errors) ?>');
+        </script>
+    <?php endif; ?>
 </body>
 
 </html>
