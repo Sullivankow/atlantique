@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
     $message = htmlspecialchars(trim($_POST['message'] ?? ''));
 
-    // Validation
+    // Validation des champs du formulaire
     if (empty($nom)) {
         $errors[] = "Le nom est requis.";
     }
