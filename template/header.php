@@ -31,9 +31,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-2">
             <div class="container">
-                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-                    <img src="/assets/images/logo.svg" alt="Logo Les Clés de l’Atlantique" width="100" height="100" style="object-fit:contain;">
-                    <span class="fw-bold">Les Clés de l’Atlantique</span>
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="/assets/images/logo.svg" alt="Logo Les Clés de l’Atlantique" width="90" height="90" style="object-fit:contain;">
+                    <span class="fw-bold mb-2" style="font-size: 1.5rem;">Les Clés de l’Atlantique</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Menu">
                     <span class="navbar-toggler-icon"></span>

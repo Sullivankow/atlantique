@@ -6,7 +6,7 @@
         <p class="lead mb-4" style="text-shadow:0 2px 8px #0007;">Conciergerie haut de gamme à Royan & Côte Atlantique<br>Gestion de biens, ménage premium, accueil personnalisé</p>
 
         <div class="d-flex justify-content-center" style="z-index:3;">
-            <button type="button" class="btn btn-primary btn-lg rounded-pill animate-btn">Contactez-nous</button>
+            <a href="pages/biens.php#bien" class="btn btn-primary mt-auto animate-btn rounded-pill">Contactez-nous</a>
         </div>
     </div>
 </section>

@@ -69,14 +69,14 @@ $biens = [
 <!-- Section Présentation des Biens dynamique -->
 <section id="bien" class="py-5 bg-light animate-slide-in">
     <div class="container">
-        <h2 class="fw-bold mb-5 text-center" style="color:#62929E; letter-spacing:0.02em;">Nos biens disponibles</h2>
+        <h2 class="fw-bold mb-5 text-center" style="color:#007090; letter-spacing:0.02em;">Nos biens disponibles</h2>
         <div class="row g-4">
             <?php foreach ($biens as $i => $bien): ?>
                 <div class="col-md-6 col-lg-4 d-flex">
                     <div class="card shadow-sm border-0 flex-fill h-100">
                         <img src="/<?= ltrim($bien['images'][0], '/') ?>" class="card-img-top bien-img-modal" alt="<?= htmlspecialchars($bien['titre']) ?>" style="height:220px;object-fit:cover;cursor:pointer;" data-bs-toggle="modal" data-bs-target="#modalBien<?= $i ?>">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-semibold" style="color:#1976d2;"><?= htmlspecialchars($bien['titre']) ?></h5>
+                            <h5 class="card-title fw-semibold" style="color:#007090;"><?= htmlspecialchars($bien['titre']) ?></h5>
                             <p class="card-text mb-2"><?= htmlspecialchars($bien['description']) ?></p>
                             <ul class="list-unstyled mb-3">
                                 <li><i class="bi bi-geo-alt text-primary me-2"></i><?= htmlspecialchars($bien['localisation']) ?></li>
@@ -95,8 +95,7 @@ $biens = [
     </div>
 </section>
 
-<?php // Génération des modals pour chaque bien 
-?>
+
 <?php $i = 0;
 foreach ($biens as $bien):
     $modalId = 'modalBien' . $i;

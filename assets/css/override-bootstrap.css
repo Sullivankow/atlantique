@@ -1,3 +1,7 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;700&display=swap');
+
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -119,6 +123,29 @@
     --bs-form-invalid-border-color: #dc3545;
 
 }
+
+
+/* Police globale pour le texte */
+body, .body, p, li, ul, ol, .lead {
+    font-family: 'Lora', 'Georgia', serif !important;
+}
+
+/* Titres avec une police d'excellence */
+h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
+    font-family: 'Playfair Display', 'Times New Roman', serif !important;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+/* Accentuer les titres principaux */
+.fw-bold, .font-weight-bold {
+    font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+
+
+
+
 
 
 /*TOP BAR*/
