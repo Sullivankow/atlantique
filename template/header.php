@@ -18,7 +18,7 @@
     <div class="topbar-conciergerie">
         <div class="container">
             <div class="contact-info">
-                <span><i class="bi bi-geo-alt"></i>Royan & Côte Atlantique</span>
+                <span><i class="bi bi-geo-alt"></i>Royan, Saujon, Saint-Palais et alentours</span>
                 <span><i class="bi bi-telephone"></i><a href="tel:+33612345678" style="color:inherit;text-decoration:none;">06 12 34 56 78</a></span>
                 <span><i class="bi bi-envelope"></i><a href="mailto:contact@cles-atlantique.fr" style="color:inherit;text-decoration:none;">contact@cles-atlantique.fr</a></span>
             </div>
@@ -32,8 +32,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-2">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="/assets/images/logo.svg" alt="Logo Les Clés de l’Atlantique" width="90" height="90" style="object-fit:contain;">
-                    <span class="fw-bold mb-2" style="font-size: 1.5rem;">Les Clés de l’Atlantique</span>
+                    <img src="/assets/images/logo.svg" alt="Logo Les Gardiens de l’Atlantique" width="90" height="90" style="object-fit:contain;">
+                    <span class="fw-bold mb-2" style="font-size: 1.5rem;">Les Gardiens de l’Atlantique</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Menu">
                     <span class="navbar-toggler-icon"></span>

@@ -8,7 +8,7 @@
                     <img src="assets/images/LOGO.svg" alt="Logo Les Clés de l’Atlantique" style="max-width:100%; max-height:100%;">
                 </div>
                 <div class="contact-title-box text-center text-lg-start">
-                    <h2 class="fw-bold mb-1" style="color:#007090; font-size:2rem; letter-spacing:0.02em;">Les Clés de l’Atlantique</h2>
+                    <h2 class="fw-bold mb-1" style="color:#007090; font-size:2rem; letter-spacing:0.02em;">Les Gardiens de l’Atlantique</h2>
                     <div class="fw-semibold" style="color:#4ce0d2; font-size:1.1rem;">Conciergerie à Royan</div>
                 </div>
             </div>
