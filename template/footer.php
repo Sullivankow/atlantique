@@ -5,8 +5,8 @@
         <div class="row align-items-center">
             <!-- Logo et nom à gauche -->
             <div class="col-md-4 text-start d-flex align-items-center mb-3 mb-md-0">
-                <!-- <img src="assets/images/LOGO.svg" alt="Logo Les Gardiens de l’Atlantique" style="height:40px; margin-right:10px;"> -->
-                <span class="fw-semibold">Les Gardiens de l’Atlantique</span>
+
+                <span class="fw-semibold">Les Clés de l’Atlantique 17</span>
             </div>
             <!-- Liens essentiels au centre -->
             <div class="col-md-4 text-center mb-3 mb-md-0">
