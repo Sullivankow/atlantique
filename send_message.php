@@ -21,11 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($errors)) {
         // Préparation de l'email
-        $to = 'sundly@live.fr'; // Remplacez par votre adresse
+        $to = 'contact@lesclesdelatlantique.fr'; // Remplacez par votre adresse
         $subject = "Nouveau message de contact Les clés de l'Atlantique";
         $body = "Nom : $nom\nEmail : $email\n\nMessage :\n$message";
         // Utiliser une adresse d'expéditeur fixe pour éviter les problèmes de délivrabilité
-        $from = 'contact@votre-domaine.fr'; // À personnaliser
+        $from = 'contact@lesclesdelatlantique.fr'; // À personnaliser
         $headers = "From: Les clés de l'Atlantique <" . $from . ">\r\n";
         $headers .= "Reply-To: $email\r\n";
         $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
