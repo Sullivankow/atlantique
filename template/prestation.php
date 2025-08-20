@@ -3,16 +3,16 @@
         <div class="container position-relative">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge rounded-pill px-4 py-2 mb-1" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Gestion complète à <b>15% HT</b></span>
+                    <span class="badge rounded-pill px-4 py-2 mb-1" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Gestion complète à <b>15% TTC</b></span>
                     <div class="mb-3">
-                        <span class="small text-muted">TVA en sus – soit <b>18% TTC</b></span>
+                        <!-- <span class="small text-muted">TVA en sus – soit <b>18% TTC</b></span> -->
                     </div>
                     <h1 class="fw-bold mb-3" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">L’excellence de la conciergerie sur la Côte Atlantique</h1>
                     <p class="lead mb-4" style="color:#546A7B; max-width:700px; margin:auto;">Valorisez votre bien et offrez à vos voyageurs une expérience inoubliable grâce à un accompagnement local, humain et haut de gamme. <br>Profitez de la sérénité, nous nous occupons de tout !</p>
                     <ul class="list-unstyled d-inline-block text-start mb-0" style="color:#62929E; font-size:1.13rem; background:rgba(255,255,255,0.7); border-radius:1.5rem; box-shadow:0 4px 24px #4ce0d222; padding:1.5rem 2rem;">
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Gestion des annonces, réservations et communication voyageurs</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Accueil chaleureux & remise des clés en main propre</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Ménage professionnel & linge hôtelier fourni</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Ménage professionnel & linge fourni</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Assistance & dépannage 7j/7 pour vous et vos locataires</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Services premium : paniers d’accueil, conseils, expériences locales</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Suivi, reporting & optimisation de vos revenus</li>
@@ -36,39 +36,71 @@
 
     <section id="prestations" class="prestations-section py-5" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%);">
         <div class="container">
-            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Montserrat',sans-serif;">Nos Prestations</h2>
+            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Cinzel',serif;">Nos Prestations</h2>
             <div class="row g-4 justify-content-center">
-                <!-- Prestation 1 -->
+                <!-- Gestion locative complète -->
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.1s;">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-house-door-fill" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#62929E;">Gestion de location</h5>
-                            <p class="text-muted">Gestion complète de vos biens : annonces, accueil, ménage, linge, assistance 24/7.</p>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Gestion locative complète</h5>
+                            <p class="text-muted">Gestion des annonces, réservations, accueil des voyageurs, remise des clés, état des lieux, suivi et reporting.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Prestation 2 -->
+                <!-- Conciergerie premium -->
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.2s;">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-stars" style="font-size:2.5rem; color:#62929E;"></i>
                             <h5 class="mt-3 mb-2" style="color:#62929E;">Conciergerie premium</h5>
-                            <p class="text-muted">Services sur-mesure pour vos locataires : paniers d’accueil, réservations, expériences locales.</p>
+                            <p class="text-muted">Accueil personnalisé, paniers d’accueil, organisation d’expériences locales, conseils et assistance 7j/7.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Prestation 3 -->
+                <!-- Ménage & Blanchisserie -->
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up" style="transition-delay:0.3s;">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-bag-check-fill" style="font-size:2.5rem; color:#62929E;"></i>
                             <h5 class="mt-3 mb-2" style="color:#62929E;">Ménage & Blanchisserie</h5>
-                            <p class="text-muted">Propreté irréprochable et linge hôtelier pour un séjour parfait, sans contrainte.</p>
+                            <p class="text-muted">Ménage professionnel, linge fourni et renouvelé, préparation du logement avant chaque séjour.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Ajoute d'autres prestations ici si besoin -->
+                <!-- Maintenance & petits travaux -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
+                        <div class="card-body text-center">
+                            <i class="bi bi-tools" style="font-size:2.5rem; color:#62929E;"></i>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Maintenance & petits travaux</h5>
+                            <p class="text-muted">Interventions rapides pour l’entretien courant, gestion des dépannages et suivi des réparations.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Assistance administrative -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
+                        <div class="card-body text-center">
+                            <i class="bi bi-brush" style="font-size:2.5rem; color:#62929E;"></i>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Service de décoration & valorisation</h5>
+                            <p class="text-muted">Conseils en aménagement, décoration et valorisation de votre bien pour maximiser l’attractivité et le confort des voyageurs.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Suivi et optimisation -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
+                        <div class="card-body text-center">
+                            <i class="bi bi-graph-up" style="font-size:2.5rem; color:#62929E;"></i>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Suivi & optimisation</h5>
+                            <p class="text-muted">Reporting régulier, analyse des performances, conseils pour maximiser la rentabilité de votre bien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-muted">Transparence, réactivité et accompagnement sur-mesure pour valoriser votre bien et garantir la satisfaction de vos voyageurs.</p>
             </div>
         </div>
     </section>
