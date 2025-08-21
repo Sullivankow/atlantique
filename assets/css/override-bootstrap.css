@@ -190,6 +190,33 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 
 
 
+/* Effet souligné au survol du menu dans le header */
+.header-menu .nav-link {
+    position: relative;
+    color: inherit;
+    transition: color 0.2s;
+}
+
+.header-menu .nav-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #62929E; /* couleur du trait */
+    transition: width 0.3s cubic-bezier(.77, .2, .18, 1);
+}
+
+.header-menu .nav-link:hover::after,
+.header-menu .nav-link.active::after {
+    width: 100%;
+}
+
+
+
+
 
 /*HERO SECTION*/
 
