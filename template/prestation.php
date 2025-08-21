@@ -83,7 +83,7 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-brush" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#62929E;">Service de décoration & valorisation</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;"> Valorisation</h5>
                             <p class="text-muted">Conseils en aménagement, décoration et valorisation de votre bien pour maximiser l’attractivité et le confort des voyageurs.</p>
                         </div>
                     </div>
