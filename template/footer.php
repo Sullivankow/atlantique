@@ -18,9 +18,9 @@
             </div>
             <!-- Réseaux sociaux à droite -->
             <div class="col-md-4 text-end">
-                <a href="https://facebook.com" target="_blank" class="footer-social mx-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.facebook.com/lesclesdelatlantique17?locale=fr_FR" target="_blank" class="footer-social mx-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                 <a href="https://instagram.com" target="_blank" class="footer-social mx-2" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/33612345678" target="_blank" class="footer-social mx-2" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
             </div>
         </div>
         <hr class="bg-white my-3">
