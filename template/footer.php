@@ -26,7 +26,7 @@
         <hr class="bg-white my-3">
         <div class="row">
             <div class="col-12 text-center">
-                <small class="text-white">&copy; <?= date('Y') ?> Les Gardiens de l’Atlantique – Conciergerie à Royan. Ce site est protégé par le droit d’auteur. Toute reproduction est interdite. By SunDev Agency</small>
+                <small class="text-white">&copy; <?= date('Y') ?> Les Clés de l’Atlantique 17 – Conciergerie à Royan. Ce site est protégé par le droit d’auteur. Toute reproduction est interdite. By SunDev Agency</small>
             </div>
         </div>
     </div>
