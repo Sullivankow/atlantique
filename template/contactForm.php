@@ -33,17 +33,38 @@
                     </div>
                 </form>
             </div>
-            <!-- Coordonnées à droite -->
+
+
+
+            <!-- Coordonnées à droite réorganisées -->
             <div class="col-lg-3 d-flex flex-column align-items-center align-items-lg-end justify-content-center animate-fade-in">
-                <div class="contact-info-box p-3 rounded-4 bg-white" style="min-width:180px;">
-                    <div class="mb-2 text-muted small" style="line-height:1.4;">Nous sommes joignables 7j/7 et répondons rapidement à toutes vos demandes, par mail ou téléphone.</div>
-                    <h5 class="fw-semibold mb-3 mt-2" style="color:#007090;">Coordonnées</h5>
-                    <div class="mb-2"><i class="bi bi-geo-alt-fill me-2" style="color:#4ce0d2;"></i>Royan, Saujon, Saint-Palais et alentours</div>
-                    <div class="mb-2"><i class="bi bi-envelope-fill me-2" style="color:#4ce0d2;"></i>contact@lesclesdelatlantique17.fr</div>
-                    <div class="mb-2"><i class="bi bi-telephone-fill me-2" style="color:#4ce0d2;"></i>06 50 52 76 17</div>
-                    <div><i class="bi bi-clock me-2" style="color:#4ce0d2;"></i>7j/7 - 8h à 20h</div>
+                <div class="contact-info-box p-4 rounded-4 bg-white shadow-sm" style="min-width:220px;">
+                    <h5 class="fw-bold mb-3" style="color:#007090; font-family:'Cinzel',serif;">Coordonnées</h5>
+                    <ul class="list-unstyled mb-3">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt-fill me-2" style="color:#4ce0d2;"></i>
+                            <span class="fw-semibold">Zones d’intervention :</span><br>
+                            <span class="text-muted small">Royan, Saujon, Saint-Palais et alentours</span>
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope-fill me-2" style="color:#4ce0d2;"></i>
+                            <span class="fw-semibold">Email :</span><br>
+                            <a href="mailto:contact@lesclesdelatlantique17.fr" class="text-muted small text-decoration-none">contact@lesclesdelatlantique17.fr</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-telephone-fill me-2" style="color:#4ce0d2;"></i>
+                            <span class="fw-semibold">Téléphone :</span><br>
+                            <span class="text-muted small">06 50 52 76 17</span><br>
+                            <span class="text-muted small">07 80 15 19 46</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-clock me-2" style="color:#4ce0d2;"></i>
+                            <span class="fw-semibold">Disponibilité :</span><br>
+                            <span class="text-muted small">7j/7 - 24h/24</span>
+                        </li>
+                    </ul>
+                    <div class="mb-0 text-muted small" style="line-height:1.4;">
+                        Nous sommes joignables 7j/7 et répondons rapidement à toutes vos demandes, par mail ou
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
 </section>

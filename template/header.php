@@ -20,6 +20,7 @@
             <div class="contact-info">
                 <span><i class="bi bi-geo-alt"></i>Royan, Saujon, Saint-Palais et alentours</span>
                 <span><i class="bi bi-telephone"></i><a href="tel:+33612345678" style="color:inherit;text-decoration:none;">06 50 52 76 17</a></span>
+                <span><i class="bi bi-telephone"></i><a href="tel:+33612345678" style="color:inherit;text-decoration:none;">07 80 15 19 46</a></span>
                 <span><i class="bi bi-envelope"></i><a href="mailto:contact@cles-atlantique.fr" style="color:inherit;text-decoration:none;">contact@lesclesdelatlantique17.fr</a></span>
             </div>
             <div class="contact-info">
