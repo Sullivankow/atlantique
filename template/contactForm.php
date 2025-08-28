@@ -5,7 +5,7 @@
             <!-- Logo + nom à gauche -->
             <div class="col-lg-3 d-flex flex-column align-items-center align-items-lg-start justify-content-center mb-4 mb-lg-0 animate-fade-in">
                 <div class="contact-logo-box p-3 rounded-4 bg-white d-flex align-items-center justify-content-center mb-3" style="width:180px; height:180px;">
-                    <img src="assets/images/LOGO.svg" alt="Logo Les Clés de l’Atlantique" style="max-width:100%; max-height:100%;">
+                    <img src="assets/images/logo.svg" alt="Logo Les Clés de l’Atlantique" style="max-width:100%; max-height:100%;">
                 </div>
                 <div class="contact-title-box text-center text-lg-start">
                     <h2 class="fw-bold mb-1" style="color:#007090; font-size:2rem; letter-spacing:0.02em;">Les Clés de l’Atlantique 17</h2>
@@ -14,10 +14,10 @@
             </div>
             <!-- Formulaire au centre -->
             <div class="col-lg-5 d-flex align-items-center">
-                <form class="contact-form-minimal p-4 rounded-5 animate-fade-in-up w-100" method="post" action="#" autocomplete="on" style="background:rgba(255,255,255,0.18);backdrop-filter:blur(8px);max-width:420px; width:100%;">
+                <form class="contact-form-minimal p-4 rounded-5 animate-fade-in-up w-100" method="post" action="/send_message.php" autocomplete="on" style="background:rgba(255,255,255,0.18);backdrop-filter:blur(8px);max-width:420px; width:100%;">
                     <h2 class="fw-bold mb-4 text-center" style="color:#007090;">Contactez-nous</h2>
                     <div class="form-floating-line mb-4">
-                        <input type="text" class="form-control-line" id="name" name="name" required placeholder="Nom">
+                        <input type="text" class="form-control-line" id="nom" name="nom" required placeholder="Nom">
                         <span class="form-placeholder">Nom</span>
                     </div>
                     <div class="form-floating-line mb-4">
@@ -64,7 +64,7 @@
                         </li>
                     </ul>
                     <div class="mb-0 text-muted small" style="line-height:1.4;">
-                        Nous sommes joignables 7j/7 et répondons rapidement à toutes vos demandes, par mail ou
+                        Nous sommes joignables 7j/7 et répondons rapidement à toutes vos demandes, par mail ou téléphone.
                     </div>
                 </div>
 </section>
