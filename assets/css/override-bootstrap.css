@@ -187,6 +187,17 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         gap: 0.7rem;
     }
 }
+/* Topbar : n'affiche que "Votre conciergerie de confiance" sur mobile */
+@media (max-width: 991px) {
+    .topbar-conciergerie .contact-info:first-child {
+        display: none !important;
+    }
+    .topbar-conciergerie .contact-info:last-child {
+        display: block !important;
+        text-align: center;
+        width: 100%;
+    }
+}
 
 
 
