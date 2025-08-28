@@ -218,16 +218,31 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 .navbar-brand img,
 .logo-img {
     vertical-align: middle;
-    margin-top: -6px; /* Ajuste la valeur selon le rendu souhaité */
+    margin-top: -6px; 
 }
 
 /* Si tu utilises une classe spécifique pour le logo, adapte le sélecteur */
 @media (max-width: 991px) {
     .navbar-brand img,
     .logo-img {
-        margin-top: -4px; /* Ajustement plus léger sur mobile */
+        margin-top: -4px; 
     }
 }
+
+/* Cache le titre-nav sur mobile */
+@media (max-width: 991px) {
+    .title-nav {
+        display: none !important;
+    }
+    .navbar-toggler {
+        margin-right: 1.5rem;
+    }
+}
+
+
+
+
+
 
 
 
