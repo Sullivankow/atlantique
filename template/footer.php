@@ -20,7 +20,7 @@
             <div class="col-md-4 text-end">
                 <a href="https://www.facebook.com/lesclesdelatlantique17?locale=fr_FR" target="_blank" class="footer-social mx-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                 <a href="https://instagram.com" target="_blank" class="footer-social mx-2" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-
+                <a href="https://www.tiktok.com/@lesclesdelatlantique17" target="_blank" class="footer-social mx-2" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
             </div>
         </div>
         <hr class="bg-white my-3">

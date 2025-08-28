@@ -397,139 +397,71 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     pointer-events: none;
 }
 
+
+
+
+/* Optimisation de la section aboutUs en mode mobile : tout est centré et les images sont masquées */
 @media (max-width: 991px) {
+    .aboutus-artistic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 0 1rem 0;
+    }
     .aboutus-art-imgs {
-        min-width: 220px;
-        min-height: 170px;
+        display: none !important; /* Masque toutes les images et éléments décoratifs */
     }
-
-    .art-img1 {
-        width: 140px;
-        height: 140px;
-        left: 0;
-        top: 10px;
+    .aboutus-content,
+    .text-conciergerie {
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        font-size: 1rem !important;
+        text-align: center !important;
     }
-
-    .art-img2 {
-        width: 90px;
-        height: 90px;
-        left: 70px;
-        top: 60px;
+    .aboutus-title,
+    .fw-bold.text-conciergerie {
+        font-size: 1.2rem !important;
+        margin-bottom: 0.7rem !important;
+        text-align: center !important;
     }
-
-    .aboutus-art-anchor {
-        width: 60px;
-        height: 60px;
-        right: -15px;
-        top: 5px;
+    .d-flex.flex-wrap.gap-3 {
+        justify-content: center !important;
+        gap: 0.7rem !important;
+        margin-top: 1rem !important;
     }
-
-    .art-bg-circle {
-        width: 60px;
-        height: 60px;
-        left: 40px;
-        top: 40px;
+    .badge {
+        font-size: 0.95rem !important;
+        padding: 0.5rem 1rem !important;
+        margin-bottom: 0.3rem !important;
+        display: inline-flex !important;
+        align-items: center !important;
     }
 }
 
 @media (max-width: 600px) {
     .aboutus-artistic {
-        padding: 2rem 0 1rem 0;
+        padding: 1.2rem 0 0.5rem 0 !important;
     }
-
-    .aboutus-art-imgs {
-        min-width: 120px;
-        min-height: 70px;
+    .aboutus-content,
+    .text-conciergerie {
+        font-size: 0.97rem !important;
+        padding: 0.3rem !important;
     }
-
-    .art-img1 {
-        width: 70px;
-        height: 70px;
-        left: 0;
-        top: 5px;
+    .aboutus-title,
+    .fw-bold.text-conciergerie {
+        font-size: 1.05rem !important;
+        margin-bottom: 0.5rem !important;
     }
-
-    .art-img2 {
-        width: 40px;
-        height: 40px;
-        left: 35px;
-        top: 25px;
-    }
-
-    .aboutus-art-anchor {
-        width: 28px;
-        height: 28px;
-        right: -5px;
-        top: 2px;
-    }
-
-    .art-bg-circle {
-        width: 28px;
-        height: 28px;
-        left: 18px;
-        top: 18px;
+    .d-flex.flex-wrap.gap-3 {
+        gap: 0.5rem !important;
+        margin-top: 0.7rem !important;
     }
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*FOOTER*/
-
-.footer-conciergerie {
-    background: linear-gradient(90deg, #62929E 0%, #546A7B 100%);
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 0 -2px 8px rgba(25, 118, 210, 0.07);
-}
-
-.footer-conciergerie .footer-social {
-    color: #e3f2fd;
-    font-size: 1.7rem;
-    transition: color 0.2s;
-}
-
-.footer-conciergerie .footer-social:hover {
-    color: #fff;
-    text-shadow: 0 2px 8px #1976d2;
-}
-
-.footer-conciergerie small {
-    color: #bbdefb;
-}
-
-@media (max-width: 600px) {
-    .footer-conciergerie .row {
-        flex-direction: column;
-        gap: 0.7rem;
-    }
-
-    .footer-conciergerie .col-md-6 {
-        text-align: center !important;
-    }
-}
 
 
 
@@ -556,12 +488,8 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     transition: transform 0.6s cubic-bezier(.77, .2, .18, 1);
 }
 
-@media (max-width: 600px) {
-    .review-card-art {
-        min-width: 90vw;
-        width: 95vw;
-    }
-}
+
+
 
 
 /*ANIMATION DES IMAGES*/
@@ -617,32 +545,27 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 992px) {
+    /* Faire disparaître les images */
+    .reviews-art-imgs img,
+    .reviews-art-imgs svg {
+        display: none !important;
+    }
+
+ @media (max-width: 991px) {
     .reviews-art-imgs {
-        min-width: 120px;
-        min-height: 70px;
+        max-width: 400px !important;
+        width: 90vw !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-bottom: 0 !important;
     }
-
-    .review-img1 {
-        width: 90px !important;
-        height: 90px !important;
-        left: 0;
-        top: 5px;
+    .reviews-art-imgs .d-grid {
+        margin-bottom: 0.3rem !important; /* Marge réduite sous le bouton */
     }
-
-    .review-img2 {
-        width: 50px !important;
-        height: 50px !important;
-        left: 50px;
-        top: 30px;
-    }
-
-    .reviews-art-anchor {
-        width: 28px;
-        height: 28px;
-        right: -5px;
-        top: 2px;
-    }
+}
+  
 }
 
 
@@ -757,3 +680,43 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 
 
 
+
+
+/*FOOTER*/
+
+.footer-conciergerie {
+    background: linear-gradient(90deg, #62929E 0%, #546A7B 100%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 -2px 8px rgba(25, 118, 210, 0.07);
+}
+
+.footer-conciergerie .footer-social {
+    color: #e3f2fd;
+    font-size: 1.7rem;
+    transition: color 0.2s;
+}
+
+.footer-conciergerie .footer-social:hover {
+    color: #fff;
+    text-shadow: 0 2px 8px #1976d2;
+}
+
+.footer-conciergerie small {
+    color: #bbdefb;
+}
+
+
+
+/* Centrer le nom dans le footer sur mobile */
+@media (max-width: 767px) {
+    .footer-conciergerie .col-md-4.text-start {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .footer-conciergerie .fw-semibold {
+        width: 100%;
+        display: block;
+        text-align: center !important;
+    }
+}

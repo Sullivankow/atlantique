@@ -23,7 +23,7 @@
                             <circle cx="40" cy="40" r="35" fill="#4ce0d2" />
                         </svg>
                     </div>
-                    <div class="d-grid mt-3" style="position:relative; z-index:3; width:fit-content; ">
+                    <div class=" d-grid mt-3" style="position:relative; z-index:3; width:fit-content; ">
                         <a href="/pages/prestations.php#prestations" class="btn btn-primary mt-auto animate-btn rounded-pill">Nos prestations</a>
                     </div>
                 </div>
