@@ -123,6 +123,9 @@
 }
 
 
+
+
+
 /* Police globale pour le texte */
 body, .body, p, li, ul, ol, .lead {
     font-family: 'Lora', 'Georgia', serif !important;
@@ -737,4 +740,26 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         display: block;
         text-align: center !important;
     }
+}
+
+
+html, body {
+    overflow-x: hidden !important;
+    width: 100vw;
+    max-width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section, .container, .row, .col, [class*="col-"] {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+img, svg {
+    max-width: 100vw !important;
+    height: auto;
+    display: block;
 }
