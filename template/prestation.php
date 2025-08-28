@@ -8,14 +8,14 @@
                         <!-- <span class="small text-muted">TVA en sus – soit <b>18% TTC</b></span> -->
                     </div>
                     <h1 class="fw-bold mb-3" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">L’excellence de la conciergerie sur la Côte Atlantique</h1>
-                    <p class="lead mb-4" style="color:#546A7B; max-width:700px; margin:auto;">Valorisez votre bien et offrez à vos voyageurs une expérience inoubliable grâce à un accompagnement local, humain et haut de gamme. <br>Profitez de la sérénité, nous nous occupons de tout !</p>
+                    <p class="lead mb-4" style="color:#546A7B; max-width:700px; margin:auto;">Valorisez votre bien et offrez à vos voyageurs une expérience inoubliable grâce à un accompagnement local et humain. <br>Profitez de la sérénité, nous nous occupons de tout !</p>
                     <ul class="list-unstyled d-inline-block text-start mb-0" style="color:#62929E; font-size:1.13rem; background:rgba(255,255,255,0.7); border-radius:1.5rem; box-shadow:0 4px 24px #4ce0d222; padding:1.5rem 2rem;">
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Gestion des annonces, réservations et communication voyageurs</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Accueil chaleureux & remise des clés en main propre</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Ménage professionnel & linge fourni</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Assistance & dépannage 7j/7 pour vous et vos locataires</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Services premium : paniers d’accueil, conseils, expériences locales</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Suivi, reporting & optimisation de vos revenus</li>
+                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Suivi & optimisation de vos revenus</li>
                     </ul>
                 </div>
             </div>
@@ -93,8 +93,8 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-graph-up" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#62929E;">Suivi & optimisation</h5>
-                            <p class="text-muted">Reporting régulier, analyse des performances, conseils pour maximiser la rentabilité de votre bien.</p>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;"> Optimisation</h5>
+                            <p class="text-muted"> Conseils pour maximiser la rentabilité de votre bien.</p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                             </h3>
                             <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Oui, vous recevez des comptes-rendus réguliers, un accès à vos réservations et un interlocuteur dédié pour toute question.
+                                    Oui, vous avez un accès à vos réservations et un interlocuteur dédié pour toute question.
                                 </div>
                             </div>
                         </div>

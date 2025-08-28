@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     }
     .aboutus-title,
     .fw-bold.text-conciergerie {
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
         margin-bottom: 0.7rem !important;
         text-align: center !important;
     }
@@ -450,13 +450,15 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     }
     .aboutus-title,
     .fw-bold.text-conciergerie {
-        font-size: 1.05rem !important;
+        font-size: 1.50rem !important;
         margin-bottom: 0.5rem !important;
     }
     .d-flex.flex-wrap.gap-3 {
         gap: 0.5rem !important;
         margin-top: 0.7rem !important;
     }
+    
+    
 }
 
 
@@ -516,6 +518,11 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 .reviews-art-anchor {
     pointer-events: none;
 }
+.reviews-section .fs-5,
+.reviews-section p.fs-5 {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+}
 
 @keyframes floatImg {
     0% {
@@ -562,8 +569,19 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         padding-bottom: 0 !important;
     }
     .reviews-art-imgs .d-grid {
+         display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
         margin-bottom: 0.3rem !important; /* Marge réduite sous le bouton */
+        width: 100% !important;
     }
+ .reviews-art-imgs .btn {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+        text-align: center !important;
+    }
+
 }
   
 }

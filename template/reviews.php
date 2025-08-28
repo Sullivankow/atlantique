@@ -9,7 +9,7 @@
     </svg>
     <div class="container position-relative" style="z-index:1;">
         <div class="row align-items-center gy-5 flex-lg-row flex-column-reverse">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
+            <div class="col-lg-6 d-flex flex-column justify-content-center ">
                 <h2 class="fw-bold mb-3" style="color:#007090; letter-spacing:0.03em;">Le bien-être de nos clients, notre priorité</h2>
                 <p class="fs-5 mb-4" style="color:#007090;max-width:500px;">
                     Chez Les Clés de l’Atlantique, chaque prestation est pensée pour offrir une expérience unique et sereine à nos clients. Votre confort, votre tranquillité et votre satisfaction sont au cœur de notre engagement. Nous croyons que l’écoute, la confiance et l’attention aux détails font toute la différence.<br>
