@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.lesclesdelatlantique17.fr/sitemap.xml
