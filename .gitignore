@@ -1,0 +1,33 @@
+# Fichiers et dossiers sensibles à ignorer
+.env
+*.env
+config.php
+send_message.php
+composer.json
+composer.lock
+vendor/
+.htaccess
+phpmailer/
+phpmailer.log
+uploads/
+assets/images/
+assets/js/
+assets/css/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+# Fichiers système et IDE
+.vscode/
+.idea/
+node_modules/
+# Fichiers temporaires
+*.bak
+*.swp
+*.swo
+# Fichiers de cache
+.cache/
+# Fichiers de backup
+*~
+# Fichiers de test
+/tests/
