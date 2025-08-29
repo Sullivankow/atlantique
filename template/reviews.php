@@ -30,7 +30,8 @@
 
             </div>
             <div class=" col-lg-6">
-                <div class="reviews-carousel position-relative overflow-visible">
+                <!-- Carousel desktop -->
+                <div class="reviews-carousel position-relative overflow-visible d-none d-md-block">
                     <div class="reviews-track d-flex flex-nowrap align-items-stretch" id="reviewsTrack">
                         <?php
                         $reviews = [
@@ -78,10 +79,8 @@
                                 <div class="text-end text-muted mt-2" style="font-size:0.97rem;">
                                     <?= htmlspecialchars($review['date']) ?>
                                 </div>
-
                             </div>
                         <?php endforeach; ?>
-
                     </div>
                     <!-- Boutons de navigation sous le carousel -->
                     <div class="d-flex justify-content-center gap-3 mt-4">
@@ -92,6 +91,30 @@
                             <i class="bi bi-chevron-right" style="font-size:1.7rem;color:#007090;"></i>
                         </button>
                     </div>
+                </div>
+                <!-- Liste scrollable mobile -->
+                <div class="reviews-list-mobile d-flex d-md-none">
+                    <?php foreach ($reviews as $review): ?>
+                        <div class="review-card-art shadow-lg rounded-5 p-4 mb-3 bg-white d-flex flex-column justify-content-between position-relative" style="min-width:80vw; max-width:90vw; border-left:8px solid #4ce0d2;">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" style="position:absolute;top:-24px;left:-24px;opacity:0.13;">
+                                <circle cx="24" cy="24" r="24" fill="#007090" />
+                            </svg>
+                            <div class="mb-2" style="color:#007090; font-size:1.1rem; font-weight:600;">
+                                <?= htmlspecialchars($review['author']) ?>
+                                <span class="text-warning ms-2">
+                                    <?php for ($i = 0; $i < $review['rating']; $i++) echo '★'; ?>
+                                    <?php for ($i = $review['rating']; $i < 5; $i++) echo '<span style="opacity:0.2;">★</span>'; ?>
+                                </span>
+                            </div>
+                            <div class="flex-grow-1 d-flex align-items-center" style="color:#555; font-size:1.08rem; min-height:80px;">
+                                <i class="bi bi-quote" style="font-size:2rem;color:#4ce0d2;opacity:0.5;margin-right:8px;"></i>
+                                <span>"<?= htmlspecialchars($review['text']) ?>"</span>
+                            </div>
+                            <div class="text-end text-muted mt-2" style="font-size:0.97rem;">
+                                <?= htmlspecialchars($review['date']) ?>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>

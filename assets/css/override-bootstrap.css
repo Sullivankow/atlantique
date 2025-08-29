@@ -3,6 +3,7 @@
 
 
 
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -367,6 +368,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         transform: scale(1.04) rotate(-2deg) translateY(-12px);
     }
 
+
     100% {
         transform: scale(1) rotate(-7deg) translateY(0);
     }
@@ -473,6 +475,8 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 
 
 
+
+
 /*SECTION AVIS*/
 .review-card-art {
     box-shadow: 0 8px 32px #4ce0d244;
@@ -505,6 +509,31 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         margin-bottom: 0.2rem !important;
     }
 }
+
+
+@media (max-width: 767px) {
+    .reviews-carousel {
+        display: none !important;
+    }
+    .reviews-list-mobile {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        gap: 1rem !important;
+        width: 100vw !important;
+        padding: 0.5rem !important;
+        margin: 0 !important;
+        scroll-snap-type: x mandatory;
+    }
+    .reviews-list-mobile .review-card-art {
+        min-width: 80vw !important;
+        max-width: 90vw !important;
+        scroll-snap-align: start;
+    }
+}
+
+
 
 
 /*ANIMATION DES IMAGES*/
@@ -699,8 +728,8 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 /* Correction du centrage et suppression de la marge à droite du formulaire de contact en mobile */
 @media (max-width: 767px) {
     .contact-section {
-        padding-top: 0.5rem !important;
-        padding-bottom: 0.5rem !important;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
     }
     .contact-section .row {
         flex-direction: column !important;
@@ -709,14 +738,14 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         margin-left: 0 !important;
     }
     .contact-form-minimal {
-        margin: 0 !important;
-        width: 100vw !important;
-        max-width: 100vw !important;
-        box-sizing: border-box !important;
-        padding-left: 4vw !important;
-        padding-right: 4vw !important;
-        padding-top: 0.7rem !important;
-        padding-bottom: 0.7rem !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    box-sizing: border-box !important;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
     }
 }
 
