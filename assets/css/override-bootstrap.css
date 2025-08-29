@@ -1,5 +1,8 @@
 
 
+
+
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -494,7 +497,14 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 }
 
 
-
+@media (max-width: 767px) {
+    .reviews-section {
+        padding-bottom: 0.1rem !important;
+    }
+    .reviews-art-imgs .btn {
+        margin-bottom: 0.2rem !important;
+    }
+}
 
 
 /*ANIMATION DES IMAGES*/
@@ -686,7 +696,29 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     }
 }
 
-
+/* Correction du centrage et suppression de la marge à droite du formulaire de contact en mobile */
+@media (max-width: 767px) {
+    .contact-section {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    .contact-section .row {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .contact-form-minimal {
+        margin: 0 !important;
+        width: 100vw !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+        padding-left: 4vw !important;
+        padding-right: 4vw !important;
+        padding-top: 0.7rem !important;
+        padding-bottom: 0.7rem !important;
+    }
+}
 
 
 
