@@ -1,33 +1,4 @@
-    <!-- Description conciergerie -->
-    <section class="header-description py-4 animate-fade-in-up" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%); border-bottom:1px solid #e3f2fd; position:relative; overflow:hidden;">
-        <div class="container position-relative">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge rounded-pill px-4 py-2 mb-1" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Gestion complète à <b>15% TTC</b></span>
-                    <div class="mb-3">
-                        <!-- <span class="small text-muted">TVA en sus – soit <b>18% TTC</b></span> -->
-                    </div>
-                    <h1 class="fw-bold mb-3" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">L’excellence de la conciergerie sur la Côte Atlantique</h1>
-                    <p class="lead mb-4" style="color:#546A7B; max-width:700px; margin:auto;">Valorisez votre bien et offrez à vos voyageurs une expérience inoubliable grâce à un accompagnement local et humain. <br>Profitez de la sérénité, nous nous occupons de tout !</p>
-                    <ul class="list-unstyled d-inline-block text-start mb-0" style="color:#62929E; font-size:1.13rem; background:rgba(255,255,255,0.7); border-radius:1.5rem; box-shadow:0 4px 24px #4ce0d222; padding:1.5rem 2rem;">
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Gestion des annonces, réservations et communication voyageurs</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Accueil chaleureux & remise des clés en main propre</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Ménage professionnel & linge fourni</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Assistance & dépannage 7j/7 pour vous et vos locataires</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Services premium : paniers d’accueil, conseils, expériences locales</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.3rem;"></i>Suivi & optimisation de vos revenus</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Effet décoratif artistique -->
-            <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:-40px;left:-40px;z-index:0;opacity:0.18;">
-                <circle cx="90" cy="90" r="90" fill="#4ce0d2" />
-            </svg>
-            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;bottom:-30px;right:-30px;z-index:0;opacity:0.13;">
-                <circle cx="60" cy="60" r="60" fill="#62929E" />
-            </svg>
-        </div>
-    </section>
+
 
 
 
@@ -104,6 +75,64 @@
             </div>
         </div>
     </section>
+
+
+
+
+    <!-- Description conciergerie -->
+
+    <section class="header-description py-5 animate-fade-in-up" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%); border-bottom:1px solid #e3f2fd; position:relative; overflow:hidden;">
+        <div class="container position-relative">
+            <h1 class="fw-bold mb-4 text-center" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">Nos formules de conciergerie</h1>
+            <p class="lead mb-5 text-center" style="color:#546A7B; max-width:700px; margin:auto;">Choisissez la formule adaptée à votre location : liberté pour les séjours longue durée, tranquillité pour les locations courtes. Profitez d’un accompagnement local, humain et sur-mesure.</p>
+            <div class="row justify-content-center g-4">
+                <!-- Formule Liberté -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
+                        <div class="card-body text-center p-4">
+                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>18% TTC</b></span>
+                            <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Gestion à la carte</h2>
+                            <p class="text-muted mb-3">Idéale pour les locations longue durée. Vous choisissez les prestations selon vos besoins : gestion des annonces, accueil, ménage, assistance, etc.</p>
+                            <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion flexible et personnalisée</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Prestations à la carte</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Adapté aux locations longue durée</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Formule Tranquillité -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
+                        <div class="card-body text-center p-4">
+                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Tranquillité <b>30% TTC</b></span>
+                            <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Tout-en-un</h2>
+                            <p class="text-muted mb-3">Parfait pour les locations courte durée. Nous gérons tout : annonces, réservations, accueil, ménage, assistance, services premium.</p>
+                            <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion complète et sereine</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Services inclus</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Adapté aux locations courte durée</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Effet décoratif artistique -->
+            <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:-40px;left:-40px;z-index:0;opacity:0.18;">
+                <circle cx="90" cy="90" r="90" fill="#4ce0d2" />
+            </svg>
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;bottom:-30px;right:-30px;z-index:0;opacity:0.13;">
+                <circle cx="60" cy="60" r="60" fill="#62929E" />
+            </svg>
+        </div>
+    </section>
+
+
+
+
+
+
+
 
     <!-- Section FAQ -->
     <section id="faq" class="faq-section py-5" style="background: #fff;">
