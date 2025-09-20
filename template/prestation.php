@@ -7,7 +7,7 @@
 
     <section id="prestations" class="prestations-section py-5" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%);">
         <div class="container">
-            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Cinzel',serif;">Nos Prestations</h2>
+            <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Cinzel',serif;">Nos Services</h2>
             <div class="row g-4 justify-content-center">
                 <!-- Gestion locative complète -->
                 <div class="col-12 col-md-6 col-lg-4">
@@ -24,7 +24,7 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-stars" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#62929E;">Conciergerie premium</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Conciergerie</h5>
                             <p class="text-muted">Accueil personnalisé, paniers d’accueil, organisation d’expériences locales, conseils et assistance 7j/7.</p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                     <div class="card h-100 shadow-sm border-0 animate-fade-in-up">
                         <div class="card-body text-center">
                             <i class="bi bi-bag-check-fill" style="font-size:2.5rem; color:#62929E;"></i>
-                            <h5 class="mt-3 mb-2" style="color:#62929E;">Ménage & Blanchisserie</h5>
+                            <h5 class="mt-3 mb-2" style="color:#62929E;">Ménage</h5>
                             <p class="text-muted">Ménage professionnel, linge fourni et renouvelé, préparation du logement avant chaque séjour.</p>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                 <div class="col-12 col-md-6 col-lg-5">
                     <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
                         <div class="card-body text-center p-4">
-                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>18% TTC</b></span>
+                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>15% TTC</b></span>
                             <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Gestion à la carte</h2>
                             <p class="text-muted mb-3">Idéale pour les locations longue durée. Vous choisissez les prestations selon vos besoins : gestion des annonces, accueil, ménage, assistance, etc.</p>
                             <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
@@ -105,7 +105,7 @@
                 <div class="col-12 col-md-6 col-lg-5">
                     <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
                         <div class="card-body text-center p-4">
-                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Tranquillité <b>30% TTC</b></span>
+                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Tranquillité <b>23% TTC</b></span>
                             <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Tout-en-un</h2>
                             <p class="text-muted mb-3">Parfait pour les locations courte durée. Nous gérons tout : annonces, réservations, accueil, ménage, assistance, services premium.</p>
                             <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
