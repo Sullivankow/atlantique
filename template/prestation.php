@@ -5,6 +5,7 @@
 
 
 
+
     <section id="prestations" class="prestations-section py-5" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%);">
         <div class="container">
             <h2 class="text-center mb-5 animate-fade-in-up" style="color:#62929E; font-family:'Cinzel',serif;">Nos Services</h2>
@@ -83,40 +84,31 @@
 
     <section class="header-description py-5 animate-fade-in-up" style="background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%); border-bottom:1px solid #e3f2fd; position:relative; overflow:hidden;">
         <div class="container position-relative">
-            <h1 class="fw-bold mb-4 text-center" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">Nos formules de conciergerie</h1>
-            <p class="lead mb-5 text-center" style="color:#546A7B; max-width:700px; margin:auto;">Choisissez la formule adaptée à votre location : liberté pour les séjours longue durée, tranquillité pour les locations courtes. Profitez d’un accompagnement local, humain et sur-mesure.</p>
+            <h1 class="fw-bold mb-4 text-center" style="color:#62929E; font-family:'Montserrat',sans-serif; font-size:2.2rem; letter-spacing:0.01em;">Prestation</h1>
+            <p class="lead mb-5 text-center" style="color:#546A7B; max-width:700px; margin:auto;">La formule adaptée à votre location : liberté et sérénité. Profitez d’un accompagnement local, humain et sur-mesure.</p>
             <div class="row justify-content-center g-4">
                 <!-- Formule Liberté -->
                 <div class="col-12 col-md-6 col-lg-5">
                     <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
                         <div class="card-body text-center p-4">
                             <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>15% TTC</b></span>
+                            
                             <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Gestion à la carte</h2>
-                            <p class="text-muted mb-3">Idéale pour les locations longue durée. Vous choisissez les prestations selon vos besoins : gestion des annonces, accueil, ménage, assistance, etc.</p>
+                            <p class="text-muted mb-3">15% TTC sur le loyer perçu, ensuite vous choisissez les prestations selon vos besoins : Check-in, Check-out, ménage, assistance, etc.</p>
                             <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion flexible et personnalisée</li>
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Prestations à la carte</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Adapté aux locations longue durée</li>
+                                
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Suivi et optimisation des revenus</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Assistance et dépannage 7j/7</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Services sur demande</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Transparence et réactivité</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Conseils personnalisés pour valoriser votre bien</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Formule Tranquillité -->
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
-                        <div class="card-body text-center p-4">
-                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#4ce0d2 0%,#62929E 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Tranquillité <b>23% TTC</b></span>
-                            <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Tout-en-un</h2>
-                            <p class="text-muted mb-3">Parfait pour les locations courte durée. Nous gérons tout : annonces, réservations, accueil, ménage, assistance, services premium.</p>
-                            <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion complète et sereine</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Services inclus</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Adapté aux locations courte durée</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+             
             <!-- Effet décoratif artistique -->
             <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:-40px;left:-40px;z-index:0;opacity:0.18;">
                 <circle cx="90" cy="90" r="90" fill="#4ce0d2" />
