@@ -54,7 +54,7 @@
                         <li class="mb-2">
                             <i class="bi bi-telephone-fill me-2" style="color:#4ce0d2;"></i>
                             <span class="fw-semibold">Téléphone :</span><br>
-                            <span class="text-muted small">06 50 52 76 17</span><br>
+                            
                             <span class="text-muted small">07 80 15 19 46</span>
                         </li>
                         <li>

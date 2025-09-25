@@ -10,13 +10,13 @@ require_once __DIR__ . '/../template/header.php';
             <div class="p-4 rounded-4 mb-3" style="background: #e3f2fd;">
                 <h2 class="h4 fw-bold mb-3" style="font-family:'Cinzel',serif; color:#62929E;">Éditeur du site</h2>
                 <ul class="list-unstyled mb-0" style="font-size:1rem;">
-                    <li><strong>Nom de l'entreprise :</strong> [À compléter]</li>
-                    <li><strong>Forme juridique :</strong> [À compléter]</li>
-                    <li><strong>Adresse du siège social :</strong> [À compléter]</li>
-                    <li><strong>Téléphone :</strong> [À compléter]</li>
-                    <li><strong>Email :</strong> [À compléter]</li>
-                    <li><strong>Numéro SIRET :</strong> [À compléter]</li>
-                    <li><strong>Directeur de la publication :</strong> [À compléter]</li>
+                    <li><strong>Nom de l'entreprise :</strong> Les Clés de l'Atlantique 17</li>
+                    <li><strong>Forme juridique :</strong> Auto-entreprneur</li>
+                    <li><strong>Adresse du siège social :</strong> 26 Route de Saintes, 17600 Saujon</li>
+                    <li><strong>Téléphone :</strong> 07 80 15 19 46</li>
+                    <li><strong>Email :</strong> contact@lesclesdelatlantique17.fr</li>
+                    <li><strong>Numéro SIRET :</strong> 99180389100019</li>
+                    
                 </ul>
             </div>
             <div class="p-4 rounded-4 mb-3" style="background: #e3f2fd;">
@@ -45,7 +45,7 @@ require_once __DIR__ . '/../template/header.php';
             <div class="p-4 rounded-4 mb-3" style="background: #e3f2fd;">
                 <h2 class="h4 fw-bold mb-3" style="font-family:'Cinzel',serif; color:#62929E;">Données personnelles</h2>
                 <p class="mb-0" style="font-size:1rem;">
-                    Les informations recueillies via le formulaire de contact sont enregistrées dans un fichier informatisé par [Nom de l'entreprise] pour la gestion des demandes. Elles sont conservées pendant [durée à préciser] et sont destinées uniquement à [Nom de l'entreprise]. Conformément à la loi « Informatique et Libertés », vous pouvez exercer votre droit d'accès aux données vous concernant et les faire rectifier en contactant : [Email à compléter].
+                    Les informations recueillies via le formulaire de contact sont enregistrées dans un fichier informatisé par Les Clés de l'Atlantique 17, pour la gestion des demandes. Elles sont conservées et sont destinées uniquement à Les Clés de l'Atlantique 17. Conformément à la loi « Informatique et Libertés », vous pouvez exercer votre droit d'accès aux données vous concernant et les faire rectifier en contactant : contact@lesclesdelatlantique17.fr.
                 </p>
             </div>
             <div class="p-4 rounded-4 mb-3" style="background: #e3f2fd;">

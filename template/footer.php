@@ -20,13 +20,13 @@
             <div class="col-md-4 text-end">
                 <a href="https://www.facebook.com/lesclesdelatlantique17?locale=fr_FR" target="_blank" class="footer-social mx-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                 <a href="https://instagram.com" target="_blank" class="footer-social mx-2" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.tiktok.com/@lesclesdelatlantique17" target="_blank" class="footer-social mx-2" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.airbnb.fr/users/show/XXXXXXX" target="_blank" class="footer-social mx-2" aria-label="Airbnb"><i class="bi bi-airbnb"></i></a>
             </div>
         </div>
         <hr class="bg-white my-3">
         <div class="row">
             <div class="col-12 text-center">
-                <small class="text-white">&copy; <?= date('Y') ?> Les Clés de l’Atlantique 17 – Conciergerie à Royan. Ce site est protégé par le droit d’auteur. Toute reproduction est interdite. By SunDev Agency</small>
+                <small class="text-white">&copy; <?= date('Y') ?> Les Clés de l’Atlantique 17 – Conciergerie à Royan. Ce site est protégé par le droit d’auteur. Toute reproduction est interdite. </small>
             </div>
         </div>
     </div>

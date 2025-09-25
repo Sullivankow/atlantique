@@ -70,10 +70,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center mt-4">
+                <div class="text-center mt-4">
                 <p class="text-muted">Transparence, réactivité et accompagnement sur-mesure pour valoriser votre bien et garantir la satisfaction de vos voyageurs.</p>
             </div>
+            </div>
+           
         </div>
     </section>
 
@@ -99,11 +100,11 @@
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion flexible et personnalisée</li>
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Prestations à la carte</li>
                                 
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Suivi et optimisation des revenus</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Assistance et dépannage 7j/7</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Suivi régulier</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Assistance 7j/7</li>
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Services sur demande</li>
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Transparence et réactivité</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Conseils personnalisés pour valoriser votre bien</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Conseils personnalisés</li>
                             </ul>
                         </div>
                     </div>
@@ -150,12 +151,12 @@
                         <div class="accordion-item mb-3">
                             <h3 class="accordion-header" id="faq2-heading">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2" style="color:#62929E; font-weight:600;">
-                                    Comment sont sélectionnés les prestataires de ménage et de blanchisserie ?
+                                    Qui s’occupe du ménage et du linge entre chaque location ?
                                 </button>
                             </h3>
                             <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Nous travaillons uniquement avec des professionnels locaux, fiables et expérimentés, pour garantir une qualité irréprochable à chaque séjour.
+                                    Le ménage et la gestion du linge sont réalisés par nos soins, avec attention et professionnalisme, pour garantir un logement impeccable à chaque arrivée.
                                 </div>
                             </div>
                         </div>
