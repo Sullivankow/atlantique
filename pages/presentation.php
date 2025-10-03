@@ -20,7 +20,14 @@ require_once __DIR__ . '/../template/header.php';
                         <span class="badge px-3 py-2 me-3 mb-2 mb-md-0" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1rem;box-shadow:0 2px 12px #4ce0d233;">Responsable Conciergerie</span>
                         <h2 class="fw-bold mb-0" style="color:#62929E; font-family:'Cinzel',serif; font-size:2rem;">Laetitia Kowalski</h2>
                     </div>
-                    <p class="lead mb-3" style="color:#546A7B; font-size:1.08rem;">Passionnée par l’accueil et le service, Laetitia met son expertise et sa bienveillance au service des propriétaires et des voyageurs. Sa connaissance du secteur, son sens du détail et sa réactivité garantissent une expérience sur-mesure, humaine et sereine.<br><br>Son objectif : valoriser votre bien, simplifier votre gestion et offrir un séjour inoubliable à vos locataires.</p>
+                    <p class="lead mb-3" style="color:#546A7B; font-size:1.08rem;">
+                        <span style="font-size:1.15em; color:#007090; font-weight:500;">«&nbsp;Confier votre bien à Laetitia, c’est choisir la tranquillité d’esprit et l’accueil chaleureux.&nbsp;»</span><br><br>
+                        Chaque propriétaire et chaque voyageur repart avec le sourire, rassuré et enchanté par une attention sincère.<br>
+                        <span style="color:#62929E;">Laetitia ne gère pas seulement des biens : elle crée des souvenirs, des rencontres, des moments de partage.</span><br><br>
+                        Sa passion : voir les yeux des voyageurs s’illuminer à leur arrivée, et la sérénité des propriétaires.<br>
+                        Disponible à tout moment, elle veille sur votre maison comme sur la sienne.<br><br>
+                        <span style="font-weight:500; color:#007090;">Avec Les Clés de l’Atlantique, votre maison devient un vrai chez-vous, même à distance.</span>
+                    </p>
                     <ul class="list-unstyled mt-3" style="color:#62929E; font-size:1rem;">
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.1rem;"></i>Accompagnement personnalisé</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.1rem;"></i>Réactivité et disponibilité</li>
