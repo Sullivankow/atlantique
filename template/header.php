@@ -47,6 +47,9 @@
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="/pages/biens.php#bien">Les biens</a>
                         </li> -->
+                         <li class="nav-item">
+                            <a class="nav-link" href="/pages/presentation.php#presentation">Présentation</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/prestations.php#prestations">Prestations</a>
                         </li>
