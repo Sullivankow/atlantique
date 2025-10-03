@@ -37,19 +37,17 @@
 
 
 
-
 <div id="cookie-banner" style="
-    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
-    background: rgba(255,255,255,0.95); color: #007090; padding: 18px 28px; border-radius: 1.5rem;
-    box-shadow: 0 8px 32px rgba(98,146,158,0.18); z-index: 9999; display: none;
-    font-family: 'Montserrat',sans-serif; max-width: 95vw; text-align: center; backdrop-filter: blur(6px); border: 1px solid #e3f2fd;
-">
-    <div style="display:flex; flex-direction:column; align-items:center; gap:12px;">
-        <span style="font-size:1.08rem; font-weight:500;">Ce site utilise des cookies pour améliorer votre expérience et mesurer l’audience. <a href="/pages/mentionslegale.php" style="color:#62929E;text-decoration:underline;">En savoir plus</a></span>
-        <button id="accept-cookies" class="btn btn-primary px-4 py-2 rounded-pill shadow-sm" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);border:none;font-weight:600;letter-spacing:0.02em;">
-            J'accepte
-        </button>
-    </div>
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: #007090; color: #fff; padding: 20px 30px; border-radius: 1rem;
+    box-shadow: 0 2px 16px rgba(98,146,158,0.15); z-index: 9999; display: none;
+    font-family: 'Cinzel', serif; max-width: 90vw; text-align: center;">
+    Ce site utilise des cookies pour améliorer votre expérience.
+    <button id="accept-cookies" style="
+        background: #4ce0d2; color: #007090; border: none; border-radius: 8px;
+        padding: 8px 18px; margin-left: 15px; font-weight: bold; cursor: pointer;">
+        J'accepte
+    </button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

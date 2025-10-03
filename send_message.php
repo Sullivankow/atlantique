@@ -27,28 +27,50 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        $mail = new PHPMailer(true);
-        try {
-            $mail->isSMTP();
-            $mail->Host = 'ssl0.ovh.net';
-            $mail->SMTPAuth = true;
-            $mail->Username = 'contact@lesclesdelatlantique17.fr'; // ton email Zimbra
-            $mail->Password = 'Madinalake_3'; // mot de passe Zimbra
-            $mail->SMTPSecure = 'ssl'; // ou 'tls' si port 587
-            $mail->Port = 465;
+                $mail = new PHPMailer(true);
+                try {
+                        $mail->isSMTP();
+                        $mail->CharSet = 'UTF-8';
+                        $mail->Host = 'ssl0.ovh.net';
+                        $mail->SMTPAuth = true;
+                        $mail->Username = 'contact@lesclesdelatlantique17.fr'; // email expéditeur
+                        $mail->Password = 'Madinalake_3'; // mot de passe Zimbra
+                        $mail->SMTPSecure = 'ssl'; // ou 'tls' si port 587
+                        $mail->Port = 465;
 
-            $mail->setFrom('contact@lesclesdelatlantique17.fr', 'Les clés de l\'Atlantique 17');
-            $mail->addAddress('contact@lesclesdelatlantique17.fr'); // où recevoir les mails
-            $mail->addReplyTo($email, $nom);
+                        $mail->setFrom('contact@lesclesdelatlantique17.fr', 'Les clés de l\'Atlantique 17');
+                        $mail->addAddress('contact@lesclesdelatlantique17.fr'); // email destinataire
+                        $mail->addReplyTo($email, $nom);
 
-            $mail->Subject = "Nouveau message de contact";
-            $mail->Body = "Nom : $nom\nEmail : $email\n\nMessage :\n$message";
+                        $mail->Subject = "Nouveau message de contact";
+                        $mail->isHTML(true);
+                        $mail->Body = '
+                            <div style="font-family:Montserrat,sans-serif; color:#546A7B; background:#f8f9fa; padding:24px; border-radius:1rem;">
+                                <div style="text-align:center; margin-bottom:18px; display:flex; align-items:center; justify-content:center; gap:10px;">
+                                    <span style="font-size:2rem; color:#62929E; vertical-align:middle;">&#128273;</span>
+                                    <span style="font-size:1.5rem; font-weight:bold; color:#62929E;">Les Clés de l’Atlantique 17</span>
+                                </div>
+                                <h2 style="color:#62929E;">Nouveau message de contact</h2>
+                                <p><strong>Nom :</strong> '.htmlspecialchars($nom).'<br>
+                                <strong>Email :</strong> '.htmlspecialchars($email).'</p>
+                                <div style="margin:18px 0; padding:16px; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px #62929e22;">
+                                    <strong>Message :</strong><br>
+                                    '.nl2br(htmlspecialchars($message)).'
+                                </div>
+                                <hr style="margin:24px 0;">
+                                <div style="font-size:0.95rem; color:#62929E;">
+                                    <strong>Laetitia</strong> – Les Clés de l’Atlantique 17<br>
+                                    Email : <a href="mailto:contact@lesclesdelatlantique17.fr" style="color:#4ce0d2;">contact@lesclesdelatlantique17.fr</a><br>
+                                    Site : <a href="https://www.lesclesdelatlantique17.fr" style="color:#4ce0d2;">lesclesdelatlantique17.fr</a>
+                                </div>
+                            </div>
+                        ';
 
-            $mail->send();
-            $success = true;
-        } catch (Exception $e) {
-            $errors[] = "Erreur lors de l'envoi : {$mail->ErrorInfo}";
-        }
+                        $mail->send();
+                        $success = true;
+                } catch (Exception $e) {
+                        $errors[] = "Erreur lors de l'envoi : {$mail->ErrorInfo}";
+                }
     }
 } else {
     header('Location: index.php#contact');
