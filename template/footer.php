@@ -13,7 +13,7 @@
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item"><a href="/pages/mentionslegale.php" class="text-white text-decoration-none">Mentions légales</a></li>
                     <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Confidentialité</a></li>
-                    <li class="list-inline-item"><a href="mailto:contact@votre-domaine.fr" class="text-white text-decoration-none">Contact test déploiement</a></li>
+                    <li class="list-inline-item"><a href="mailto:contact@votre-domaine.fr" class="text-white text-decoration-none">Contact</a></li>
                 </ul>
             </div>
             <!-- Réseaux sociaux à droite -->
