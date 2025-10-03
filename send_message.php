@@ -60,6 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <hr style="margin:24px 0;">
                                 <div style="font-size:0.95rem; color:#62929E;">
                                     <strong>Laetitia</strong> – Les Clés de l’Atlantique 17<br>
+                                    Tel : 07 80 15 19 46<br>
                                     Email : <a href="mailto:contact@lesclesdelatlantique17.fr" style="color:#4ce0d2;">contact@lesclesdelatlantique17.fr</a><br>
                                     Site : <a href="https://www.lesclesdelatlantique17.fr" style="color:#4ce0d2;">lesclesdelatlantique17.fr</a>
                                 </div>
