@@ -1,9 +1,3 @@
-
-
-
-
-
-
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -812,4 +806,60 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         max-width: 100vw;
         overflow-x: hidden;
     }
+}
+
+
+
+
+/* Animation slide-in pour la page présentation */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+.photo-slide-in {
+  animation: slideInLeft 1s cubic-bezier(.77,.2,.32,1.01) both;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+@media (max-width: 600px) {
+    .photo-slide-in img {
+        width: 80vw !important;
+        max-width: 320px !important;
+        height: auto !important;
+        margin-left: 4vw !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-slide-in {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+.texte-slide-in {
+  animation: slideInRight 1s cubic-bezier(.77,.2,.32,1.01) both;
+  animation-delay: 0.3s;
 }
