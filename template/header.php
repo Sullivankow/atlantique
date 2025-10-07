@@ -15,17 +15,13 @@
 
 
 <body>
-    <div class="topbar-conciergerie">
-        <div class="container">
-            <div class="contact-info">
-                <span><i class="bi bi-geo-alt"></i>Royan, Saujon, Saint-Palais et alentours</span>
-                
-                <span><i class="bi bi-telephone"></i><a href="tel:+33612345678" style="color:inherit;text-decoration:none;">07 80 15 19 46</a></span>
-                <span><i class="bi bi-envelope"></i><a href="mailto:contact@cles-atlantique.fr" style="color:inherit;text-decoration:none;">contact@lesclesdelatlantique17.fr</a></span>
-            </div>
-            <div class="contact-info">
-                <span><i class="bi bi-water"></i>Votre conciergerie de confiance</span>
-            </div>
+    <div class="topbar-conciergerie promo-bar-gold">
+        <div class="promo-marquee">
+            <span>
+                <i class="bi bi-star-fill me-2"></i>
+                Une commission à <b>14% HT</b> au lieu de 20% HT pour les 10 premiers propriétaires – <b>reste 5 places</b> !
+                <i class="bi bi-star-fill ms-2"></i>
+            </span>
         </div>
     </div>
 

@@ -92,10 +92,10 @@
                 <div class="col-12 col-md-6 col-lg-5">
                     <div class="card h-100 shadow-lg border-0 animate-fade-in-up" style="border-radius:1.5rem;">
                         <div class="card-body text-center p-4">
-                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>15% TTC</b></span>
+                            <span class="badge rounded-pill px-4 py-2 mb-3" style="background:linear-gradient(90deg,#62929E 0%,#4ce0d2 100%);color:#fff;font-size:1.1rem;box-shadow:0 2px 12px #4ce0d233;">Formule Liberté <b>20% HT</b></span>
                             
                             <h2 class="fw-bold mb-3" style="color:#62929E; font-family:'Cinzel',serif; font-size:1.5rem;">Gestion à la carte</h2>
-                            <p class="text-muted mb-3">15% TTC sur le loyer perçu, ensuite vous choisissez les prestations selon vos besoins : Check-in, Check-out, ménage, assistance, etc.</p>
+                            <p class="text-muted mb-3">20% HT sur le loyer perçu, ensuite vous choisissez les prestations selon vos besoins : Check-in, Check-out, ménage, assistance, etc.</p>
                             <ul class="list-unstyled text-start mb-0" style="color:#62929E; font-size:1.08rem;">
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Gestion flexible et personnalisée</li>
                                 <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#62929E;font-size:1.2rem;"></i>Prestations à la carte</li>
