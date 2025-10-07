@@ -33,7 +33,7 @@ require_once __DIR__ . '/../template/header.php';
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.1rem;"></i>Réactivité et disponibilité</li>
                         <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:#4ce0d2;font-size:1.1rem;"></i>Expertise locale</li>
                     </ul>
-                    <a href="/index.php#contact" class="btn btn-primary animate-btn rounded-pill mt-3 w-100 w-md-auto" style="font-size:1rem; padding:0.7em 2em; font-weight:500; box-shadow:0 2px 12px #4ce0d233; border:none;" title="Accéder au formulaire de contact"><i class="bi bi-envelope me-2"></i>Contacter Laetitia</a>
+                    <a href="/index.php#contact" class="btn animate-btn rounded-pill mt-3 w-100 w-md-auto" style="font-size:1rem; padding:0.7em 2em; font-weight:500; box-shadow:0 2px 12px #4ce0d233; border:none; background:linear-gradient(90deg,#4ce0d2 0%,#007090 100%);color:#fff;" title="Accéder au formulaire de contact"><i class="bi bi-envelope me-2"></i>Contacter Laetitia</a>
                 </div>
             </div>
         </div>
