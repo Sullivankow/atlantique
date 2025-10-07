@@ -144,36 +144,6 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
 }
 
 
-/* Promo barre défilante or */
-.promo-bar-gold {
-    background: linear-gradient(90deg, #FFD700 0%, #FFC300 100%);
-    color: #7c5a00;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.08rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    box-shadow: 0 2px 8px #FFD70033;
-    padding: 0.45rem 0;
-    border-bottom: 2px solid #e6b800;
-    position: relative;
-    overflow: hidden;
-    z-index: 1000;
-}
-.promo-marquee {
-    width: 100vw;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-}
-.promo-marquee span {
-    display: inline-block;
-    padding-left: 100vw;
-    animation: promo-scroll 16s linear infinite;
-}
-@keyframes promo-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100vw); }
-}
 
 
 
@@ -236,6 +206,38 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
         text-align: center;
         width: 100%;
     }
+}
+
+/* Promo barre défilante or (topbar) */
+.promo-bar-gold {
+    background: linear-gradient(90deg, #bfa046 0%, #e6c36a 40%, #f7e7b0 60%, #bfa046 100%);
+    color: #6b4f13 !important;
+    border-bottom: 2px solid #bfa046 !important;
+    text-shadow: 0 1px 2px #fff8, 0 0px 8px #bfa04655;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.08rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 8px #FFD70033;
+    padding: 0.45rem 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+}
+.promo-marquee {
+    width: 100vw;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.promo-marquee span {
+    display: inline-block;
+    padding-left: 100vw;
+    animation: promo-scroll 16s linear infinite;
+}
+@keyframes promo-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100vw); }
 }
 
 
@@ -351,33 +353,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     }
 }
 
-/* Banderole promo style parchemin doré sur le hero */
-.promo-scroll-parchment {
-    background: linear-gradient(90deg, #f7e7b0 0%, #e6c36a 40%, #bfa046 60%, #f7e7b0 100%);
-    border-radius: 32px 32px 38px 38px/40px 40px 28px 28px;
-    box-shadow: 0 4px 24px #bfa04655, 0 1px 0 #fff8 inset;
-    border: 2.5px solid #bfa046;
-    padding: 0.7rem 1.5rem;
-    min-height: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.13rem;
-    color: #6b4f13;
-    letter-spacing: 0.01em;
-    text-shadow: 0 1px 2px #fff8, 0 0px 8px #bfa04655;
-    animation: parchment-fade-in 1.2s cubic-bezier(.77,.2,.32,1.01) both;
-}
-.promo-parchment-inner {
-    width: 100%;
-    white-space: normal;
-    font-weight: 600;
-}
-@keyframes parchment-fade-in {
-    0% { opacity: 0; transform: translateY(-30px) scale(0.98); }
-    100% { opacity: 1; transform: translateY(0) scale(1); }
-}
+
 
 
 /*ABOUT US SECTION*/
