@@ -19,7 +19,7 @@
         <div class="promo-marquee">
             <span>
                 <i class="bi bi-star-fill me-2"></i>
-                Une commission à <b>14% HT</b> au lieu de 20% HT pour les 10 premiers propriétaires – <b>reste 5 places</b> !
+                Une commission à <b>partir de 14%</b>!
                 <i class="bi bi-star-fill ms-2"></i>
             </span>
         </div>
