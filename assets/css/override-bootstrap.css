@@ -674,9 +674,9 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     margin-bottom: 0.7rem;
 }
 .logos-plateformes .logo-plateforme {
-    height: 44px;
-    width: auto;
-    max-width: 140px;
+    height: 44px !important;
+    width: auto !important;
+    max-width: 140px !important;
     filter: drop-shadow(0 2px 8px #e3f2fd);
     transition: transform 0.2s;
 }
@@ -690,8 +690,9 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
          margin-top: 0.5rem !important;
     }
     .logos-plateformes .logo-plateforme {
-        height: 32px;
-        max-width: 90vw;
+        height: 32px !important;
+        max-width: 90vw !important;
+        width: auto !important;
     }
 }
 

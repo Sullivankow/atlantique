@@ -34,10 +34,13 @@
             </div>
         </div>
     </div>
+        <div class="container">
             <div class="logos-plateformes">
-                <img src="assets/images/airbnb.svg" alt="Logo Airbnb" class="logo-plateforme" loading="lazy">
-                <img src="assets/images/booking.svg" alt="Logo Booking.com" class="logo-plateforme" loading="lazy">
+                <!-- Inline styles as a safe fallback if override CSS isn't loaded in prod -->
+                <img src="assets/images/airbnb.svg" alt="Logo Airbnb" class="logo-plateforme" loading="lazy" style="height:44px; width:auto; max-width:140px;">
+                <img src="assets/images/booking.svg" alt="Logo Booking.com" class="logo-plateforme" loading="lazy" style="height:38px; width:auto; max-width:140px;">
             </div>
+        </div>
 </section>
 
 <script>
