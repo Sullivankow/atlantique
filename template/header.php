@@ -49,9 +49,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/prestations.php#prestations">Prestations</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="/index.php#reviews">Avis</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/faq.php">FAQ</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/index.php#contact">Contact</a>
                         </li>

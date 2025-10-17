@@ -1,3 +1,4 @@
+  
 <!-- Section Avis Artistique -->
 <section id="reviews" class="reviews-section py-5 position-relative animate-slide-in" style="background: linear-gradient(120deg, #e3f2fd 0%, #f8fafc 100%); overflow:hidden;">
     <!-- Forme décorative SVG -->
@@ -33,6 +34,10 @@
             </div>
         </div>
     </div>
+            <div class="logos-plateformes">
+                <img src="assets/images/airbnb.svg" alt="Logo Airbnb" class="logo-plateforme" loading="lazy">
+                <img src="assets/images/booking.svg" alt="Logo Booking.com" class="logo-plateforme" loading="lazy">
+            </div>
 </section>
 
 <script>

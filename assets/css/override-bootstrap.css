@@ -664,6 +664,38 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
   
 }
 
+/* Logos plateformes avis responsive */
+.logos-plateformes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+.logos-plateformes .logo-plateforme {
+    height: 44px;
+    width: auto;
+    max-width: 140px;
+    filter: drop-shadow(0 2px 8px #e3f2fd);
+    transition: transform 0.2s;
+}
+.logos-plateformes .logo-plateforme:active,
+.logos-plateformes .logo-plateforme:focus {
+    transform: scale(0.97);
+}
+@media (max-width: 500px) {
+    .logos-plateformes {
+        gap: 1.1rem;
+         margin-top: 0.5rem !important;
+    }
+    .logos-plateformes .logo-plateforme {
+        height: 32px;
+        max-width: 90vw;
+    }
+}
+
+
 
 
 
