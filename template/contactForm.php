@@ -25,6 +25,10 @@
                         <span class="form-placeholder">Email</span>
                     </div>
                     <div class="form-floating-line mb-4">
+                        <input type="tel" pattern="[0-9+()\s-]{6,25}" class="form-control-line" id="phone" name="phone" required aria-required="true" placeholder="Téléphone">
+                        <span class="form-placeholder">Téléphone</span>
+                    </div>
+                    <div class="form-floating-line mb-4">
                         <textarea class="form-control-line" id="message" name="message" rows="4" required placeholder="Message"></textarea>
                         <span class="form-placeholder">Message</span>
                     </div>

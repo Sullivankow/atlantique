@@ -15,6 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nom = htmlspecialchars(trim($_POST['nom'] ?? ''));
     $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
     $message = htmlspecialchars(trim($_POST['message'] ?? ''));
+    $phone_raw = trim($_POST['phone'] ?? '');
+    // Autoriser chiffres, espaces, +, parenthèses et tirets
+    $phone = $phone_raw !== '' ? preg_replace('/[^0-9+()\s-]/', '', $phone_raw) : '';
 
     if (empty($nom)) {
         $errors[] = "Le nom est requis.";
@@ -24,6 +27,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     if (empty($message)) {
         $errors[] = "Le message est requis.";
+    }
+    // Validation téléphone (obligatoire)
+    if (empty($phone)) {
+        $errors[] = "Le téléphone est requis.";
+    } elseif (strlen(preg_replace('/\D/', '', $phone)) < 6 || strlen($phone) > 25) {
+        $errors[] = "Téléphone invalide (vérifiez le format).";
     }
 
     if (empty($errors)) {
@@ -52,7 +61,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                     <h2 style="color:#62929E;">Nouveau message de contact</h2>
                     <p><strong>Nom :</strong> '.htmlspecialchars($nom).'<br>
-                    <strong>Email :</strong> '.htmlspecialchars($email).'</p>
+                    <strong>Email :</strong> '.htmlspecialchars($email).'<br>
+                    <strong>Téléphone :</strong> '.htmlspecialchars($phone ? $phone : 'N/A').'</p>
                     <div style="margin:18px 0; padding:16px; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px #62929e22;">
                         <strong>Message :</strong><br>
                         '.nl2br(htmlspecialchars($message)).'
@@ -96,6 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <p>Bonjour '.htmlspecialchars($nom).',<br><br>
                     Nous avons bien reçu votre demande et nous vous répondrons dans les plus brefs délais.<br>
                     Voici le récapitulatif de votre message :</p>
+                    <p style="font-size:0.95rem;color:#546A7B;"><strong>Téléphone fourni :</strong> '.htmlspecialchars($phone ? $phone : 'Non fourni').'</p>
                     <div style="margin:18px 0; padding:16px; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px #62929e22;">
                         <strong>Message :</strong><br>
                         '.nl2br(htmlspecialchars($message)).'
