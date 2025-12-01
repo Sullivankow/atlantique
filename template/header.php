@@ -48,6 +48,7 @@
                 "postalCode": "17200",
                 "streetAddress": ""
             },
+            "areaServed": ["Royan", "Saujon", "Saint-Palais-sur-Mer"],
             "image": "https://www.lesclesdelatlantique17.fr/assets/images/og-image.jpg"
         }
         </script>

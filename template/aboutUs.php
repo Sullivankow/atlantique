@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="aboutus-title fw-bold mb-3 text-conciergerie" style="color:#007090; letter-spacing:0.02em;">L’esprit Tranquille</h2>
-                <p class="fs-6 mb-4 text-conciergerie" style="color:#007090">Notre conciergerie incarne l’élégance balnéaire et la passion du service. Entre océan et forêt, nous offrons une expérience sur-mesure, alliant rigueur professionnelle et chaleur humaine. Chaque prestation est pensée pour sublimer votre séjour et valoriser votre bien.</p>
+                <p class="fs-6 mb-4 text-conciergerie" style="color:#007090">Les Clés de l’Atlantique 17 est votre conciergerie à Royan spécialisée dans la gestion locative courte et longue durée. Nous prenons en charge l'accueil des voyageurs, le ménage professionnel, la maintenance et l'optimisation des revenus locatifs pour les propriétaires de Royan et des communes voisines. Notre équipe locale assure une présence sur place, une réponse rapide et une attention aux détails pour maximiser la satisfaction des voyageurs et la tranquillité des propriétaires.</p>
                 <div class="d-flex flex-wrap gap-3">
                     <span class="badge rounded-pill bg-primary bg-gradient px-3 py-2 fs-6"><i class="bi bi-stars me-2"></i>Service premium</span>
                     <span class="badge rounded-pill bg-info bg-gradient px-3 py-2 fs-6"><i class="bi bi-water me-2"></i>Esprit bord de mer</span>

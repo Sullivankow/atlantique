@@ -8,6 +8,13 @@
         <h1 class="display-4 fw-bold mb-3" style="text-shadow:0 2px 16px #0008;">Les Clés de l’Atlantique 17</h1>
         <p class="lead mb-4" style="text-shadow:0 2px 8px #0007;">Conciergerie à Royan, Saujon, et alentours<br>Gestion de biens, ménage, accueil personnalisé</p>
 
+        <!-- Paragraphe SEO local : aide le référencement sur la requête 'conciergerie Royan' -->
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                
+            </div>
+        </div>
+
         <div class="d-flex justify-content-center" style="z-index:3;">
             <a href="#contact" class="btn btn-primary mt-auto animate-btn rounded-pill">Demander un devis</a>
         </div>
