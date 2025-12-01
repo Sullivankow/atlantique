@@ -1,4 +1,7 @@
 <?php
+$meta_title = "Présentation — Les Clés de l'Atlantique 17";
+$meta_description = "Découvrez Laetitia et notre service de conciergerie à Royan : gestion complète, accueil, ménage et optimisation locative.";
+$canonical = "https://www.lesclesdelatlantique17.fr/pages/presentation.php";
 require_once __DIR__ . '/../template/header.php';
 ?>
 
@@ -11,7 +14,7 @@ require_once __DIR__ . '/../template/header.php';
         <div class="row align-items-center justify-content-center g-5 flex-column flex-md-row">
             <div class="col-12 col-md-5 d-flex justify-content-center mb-4 mb-md-0">
                 <div class="photo-slide-in" style="background:transparent; border-radius:1.25rem; box-shadow:0 8px 32px rgba(98,146,158,0.18); padding:0; max-width:100%;">
-                        <img src="/assets/images/laeti2.JPG" alt="Laetitia Kowalski - Responsable Conciergerie" style="width:100%; max-width:350px; height:auto; aspect-ratio:1/1; object-fit:cover; border-radius:1.2rem; box-shadow:0 8px 32px #4ce0d233;">
+                        <img src="/assets/images/laeti2.JPG" alt="Laetitia Kowalski - Responsable Conciergerie" width="350" height="350" loading="lazy" style="width:100%; max-width:350px; height:auto; aspect-ratio:1/1; object-fit:cover; border-radius:1.2rem; box-shadow:0 8px 32px #4ce0d233;">
                 </div>
             </div>
             <div class="col-12 col-md-7">

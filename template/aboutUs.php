@@ -4,8 +4,8 @@
         <div class="row align-items-center gy-5 flex-lg-row flex-column-reverse">
             <div class="col-lg-6 position-relative d-flex justify-content-center align-items-center mb-4 mb-lg-0">
                 <div class="aboutus-art-imgs position-relative" style="min-height:280px;">
-                    <img src="assets/images/villa1.jpg" alt="Conciergerie Royan" class="art-img1 shadow-lg rounded-4 animated-img" style="width:240px; height:240px; object-fit:cover; z-index:2; transform:rotate(-7deg); border:none;">
-                    <img src="assets/images/villa2.jpg" alt="Service Pro Clean" class="art-img2 shadow rounded-4 animated-img" style="width:170px; height:170px; object-fit:cover; z-index:1; transform:rotate(8deg); border:none;">
+                    <img src="assets/images/villa1.jpg" alt="Conciergerie Royan" class="art-img1 shadow-lg rounded-4 animated-img" width="240" height="240" loading="lazy" style="width:240px; height:240px; object-fit:cover; z-index:2; transform:rotate(-7deg); border:none;">
+                    <img src="assets/images/villa2.jpg" alt="Service Pro Clean" class="art-img2 shadow rounded-4 animated-img" width="170" height="170" loading="lazy" style="width:170px; height:170px; object-fit:cover; z-index:1; transform:rotate(8deg); border:none;">
                     <!-- SVG décoratif supprimé à la demande -->
                     <!-- Cercle bleu décoratif supprimé à la demande -->
                 </div>

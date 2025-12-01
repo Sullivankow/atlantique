@@ -3,12 +3,54 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/assets/css/override-bootstrap.css">
-    <title>Les Clés de l’Atlantique – Conciergerie à Royan & Côte Atlantique</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="/assets/css/override-bootstrap.css">
+        <?php
+        // Meta variables (peuvent être définies avant l'inclusion du header)
+        $meta_title = $meta_title ?? 'Les Clés de l’Atlantique – Conciergerie à Royan & Côte Atlantique';
+        $meta_description = $meta_description ?? 'Conciergerie à Royan : gestion de locations, accueil, ménage et optimisation de vos revenus.';
+        $canonical = $canonical ?? ('https://www.lesclesdelatlantique17.fr' . strtok($_SERVER['REQUEST_URI'], '?'));
+        ?>
+        <title><?= htmlspecialchars($meta_title) ?></title>
+        <meta name="description" content="<?= htmlspecialchars($meta_description) ?>">
+        <link rel="canonical" href="<?= htmlspecialchars($canonical) ?>">
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="Les Clés de l'Atlantique 17">
+        <meta property="og:title" content="<?= htmlspecialchars($meta_title) ?>">
+        <meta property="og:description" content="<?= htmlspecialchars($meta_description) ?>">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="<?= htmlspecialchars($canonical) ?>">
+        <meta property="og:image" content="https://www.lesclesdelatlantique17.fr/assets/images/og-image.jpg">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="<?= htmlspecialchars($meta_title) ?>">
+        <meta name="twitter:description" content="<?= htmlspecialchars($meta_description) ?>">
+        <meta name="twitter:image" content="https://www.lesclesdelatlantique17.fr/assets/images/og-image.jpg">
+
+        <!-- JSON-LD LocalBusiness (adapter les valeurs si besoin) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Les Clés de l'Atlantique 17",
+            "description": <?= json_encode($meta_description) ?>,
+            "url": "https://www.lesclesdelatlantique17.fr",
+            "telephone": "07 80 15 19 46",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Royan",
+                "addressRegion": "Charente-Maritime",
+                "postalCode": "17200",
+                "streetAddress": ""
+            },
+            "image": "https://www.lesclesdelatlantique17.fr/assets/images/og-image.jpg"
+        }
+        </script>
 </head>
 
 

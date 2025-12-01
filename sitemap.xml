@@ -5,6 +5,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.lesclesdelatlantique17.fr/pages/presentation.php</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.lesclesdelatlantique17.fr/pages/faq.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.lesclesdelatlantique17.fr/pages/biens.php</loc>
     <priority>0.8</priority>
   </url>
